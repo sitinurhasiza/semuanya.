@@ -114,23 +114,23 @@ kita dapat menemukan daftar komponen lengkap dan dokumentasi resmi di situs web 
 
 1. Buka situs resmi Bootstrap di [getboostrap.com](getbootstrap.com)
 
-    ![[btc-1.png]]
+    ![](asetCSS/btc-1.png)
 
 2. Klik "Read the docs". Maka kita akan diarahkan pada halaman web yang berisi berbagai macam Typografi (class Bootstrap).
 
-    ![[btc-2.png]]
+    ![](asetCSS/btc-2.png)
 
 3. Misalnya kita akan membuat sebuah teks quotes seperti di bawah ini:
 
-    ![[btc-3.png]]
+    ![](asetCSS/btc-3.png)
 
 4. Ketikan "Typography" di kolom search lalu enter. Maka kita akan masuk ke halaman berikut:
 
-    ![[btc-4.png]]
+    ![](asetCSS/btc-4.png)
 
 5. Carilah Subbab "Alignment":
 
-    ![[btc-5.png]]
+    ![](asetCSS/btc-5.png)
 
 6. Salinlah kode yang tertera, lalu tempelkan di tag body pada halaman html yang telah kita hubungkan dengan Bootstrap kita
 
@@ -156,11 +156,11 @@ Someone famous in
 
 ```
 
-![btc-6.png](btc-6.png)
+![](asetCSS/btc-6.png)
 
 7. Hasilnya akan terlihat seperti berikut:
 
-    ![[btc-7.png]]
+   ![](asetCSS/btc-7.png)
 
 8. Kita bisa mengganti kata kata nya dengan cara mengganti teks yang ada di dalam tag p dan untuk teks kecil bagian bawah kita ganti pada bagian dalam tag figcaption
 
@@ -192,7 +192,7 @@ Someone famous in
 
 Hasilnya adalah sebagai berikut:
 
-![[btc-8.png]]
+![](asetCSS/btc-8.png)
 
 *Keterangan :*
 
@@ -214,11 +214,11 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 
 1. Bukalah Kembali [getbootstrap.com](getbootstrap.com) lalu ketik "navbar" dikolom "search" dan klik enter
 
-    ![[btc-15.png]]
+   ![](asetCSS/btc-15.png)
 
 2. Carilah jenis navbar yang diinginkan.
 
-    ![[btc-16.png]]
+   ![](asetCSS/btc-16.png)
 
 3. Jika misalnya kita telah menemukan jenis navbar yang kita inginkan, maka, salinlah kode program yang ada dibawah gambar contoh navbar tersebut
 
@@ -294,27 +294,27 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 
 4. Tempelkanlah kode program yang terlah kita salin ke dalam tag body di file html kita. Jangan lupa untuk menautkan file html kita dengan bootstrap seperti pada langkah-langkah sebelumnya
 
-    ![[btc-18.png]]
+   ![](asetCSS/btc-18.png)
 
 5. Jalankanlah file html yang sudah ditempeli kode program bootstrap tadi melalui web browser. Maka lihatlah hasilnya
 
-    ![[btc-19.png]]
+   ![](asetCSS/btc-19.png)
 
 6. Misalnya kita ingin memberikan warna hijau pada background navbar kita. Pertama ketiklah "background" di kolom search
 
-    ![[btc-20.png]]
+   ![](asetCSS/btc-20.png)
 
 7. Carilah Warna yang kita inginkan. Misalnya dalam praktek ini adalah warna hijau
 
-    ![[btc-21.png]]
+   ![](asetCSS/btc-21.png)
 
-    ![[btc-22.png]]
+    ![](asetCSS/btc-22.png)
 
     Terdapat banyak jenis warna dalam bootstrap.
 
 8. Karena kita ingin mengkostumisasi warna background kita menjadi hijau maka kita akan memakai bg-succes . ketikkan bg-succes pada class tag pembuka seperti di bawah ini
 
-    ![[btc-23.png]]
+   ![](asetCSS/btc-23.png)
 
     *Keterangan*:
 
@@ -322,19 +322,19 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 
 9. Jika sudah maka hasilnya akan seperti ini:
 
-    ![[btc-24.png]]
+   ![](asetCSS/btc-24.png)
 
 10. Sekarang kita akan mengubah warna font yang ada pada navbar. Langkah pertama klik "Colors" pada bagian Utilities
 
-    ![[btc-25.png]]
+![](asetCSS/btc-25.png)
 
 11. Maka kita akan diarahkan pada halaman yang memuat berbagai macam warna font
 
-    ![[btc-26.png]]
+    ![](asetCSS/btc-26.png)
 
 12. Carilah warna font yang kita inginkan. Misalnya pada kostumisasi navbar ini. Kita akan menggunakan warna font putih
 
-    ![[btc-27.png]]
+   ![](asetCSS/btc-27.png)
 
 13. Karena kita ingin menggunakan warna font putih maka perintah yang digunakan adalah "text-white"
 
@@ -342,31 +342,31 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 
 15. pada bagian class sebuah tag yang membungkus text yang akan kita ganti warna, ketiklah text-white . Contohny ada pada gambar berikut:
 
-    ![[btc-28.png]]
+   ![](asetCSS/btc-28.png)
 
 16. Hasilnya akan terlihat seperti di gambar ini:
 
-    ![[btc-29.png]]
+   ![](asetCSS/btc-29.png)
 
 17. Terapkanlah Text-White diseluruh class pada tag yang membungkus text-text itu seperti halnya pada text navbar tadi
 
-    ![[btc-30.png]]
+   ![](asetCSS/btc-30.png)
 
 18. Jika file html dijalankan, hasilnya adalah sebagai berikut
 
-    ![[btc-31.png]]
+    ![](asetCSS/btc-31.png)
 
 19. Sekarang kita akan mengganti text yang ada di navbar tersebut. Caranya sangat mudah, yaitu cukup kita ganti text-text tadi dengan kata kata yang kita inginkan. Misalnya adalah sebagai berikut:
 
-    ![[btc-32.png]]
+   ![](asetCSS/btc-32.png)
 
 20. Maka hasilnya adalah sebagai berikut:
 
-    ![[btc-33.png]]
+   ![](asetCSS/btc-33.png)
 
 21. Sekarang kita akan menambahkan kolom search pada navbar kita. pada bagian navbar di [getbootstrap.com](getbootstrap.com) Scroll ke bawah hingga menemukan seperti pada gambar
 
-    ![[btc-34.png]]
+	 ![](asetCSS/btc-34.png)
 
 22. Salin kodenya lalu tempelkan di bagian bawah kode navbar kita tadi. Jadi jangan disatukan ke dalam kode navbar tadi.
 
@@ -390,7 +390,7 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 
 ```
 
-![[btc-35.png]]
+![](asetCSS/btc-35.png)
 
   
 
@@ -414,15 +414,15 @@ Untuk bagian "Dea Afrizal" adalah nama seseorang yang mengatakan quotes tersebut
 
 9. Maka hasilnya adalah seperti berikut:
 
-    ![[btc-36.png]]
+    ![](asetCSS/btc-36.png)
 
 10. Untuk membuat agar navbar tersebut terlihat menyatu, berikan background-color yang sama pada navbar diatasnya, yaitu menggunakan kode bg-succes . Letakkan di class tag yang membungkus seluruh elemen search tadi.
 
-    ![[btc-37.png]]
+    ![](asetCSS/btc-37.png)
 
 11. Maka hasil yang muncul akan seperti ini
 
-    ![[btc-38.png]]
+    ![](asetCSS/btc-38.png)
 
 ## Buttons
 
@@ -432,15 +432,15 @@ Pada praktek sebelumnya kita sudah mengatur navbar dan juga menambahkan kolom se
 
 1. Permasalahan tadi ialah background color tombolnya yang menyatu dengan warna backgriund navbarnya. Untuk mengatur warna tombol, pertama di situs getbootstrap.com, carilah bagian "buttons" di Components
 
-    ![[btc-39.png]]
+    ![](asetCSS/btc-39.png)
 
 2. Jika sudah menemukan klik bagian tersebut, maka kita akan diarahkan pada bagian buttons seperti pada gambar
 
-    ![[btc-40.png]]
+   ![](asetCSS/btc-40.png)
 
 3. Scroll lah ke bawah hingga menemukan bagian "Outlines Buttons"
 
-    ![[btc-41.png]]
+   ![](asetCSS/btc-41.png)
 
 4. Saat ini kita akan menggunakan jenis warna putih agar tidak lagi menyatu dengan warna background navabrnya. Pada outline buttons yang berwarna putih, tertulis "Light". Oleh karena itu salinlah kode program yang ada tulisan "Light".
 
@@ -452,23 +452,23 @@ Pada praktek sebelumnya kita sudah mengatur navbar dan juga menambahkan kolom se
 
 5. Blok lah terlebih dahulu kode program yang mengatur tombol pada bagian search tadi
 
-    ![[btc-42.png]]
+    ![](asetCSS/btc-42.png)
 
 6. Tempelkanlah kode program outline light, untuk menggantikan kode program button yang lama
 
-    ![[btc-43.png]]
+    ![](asetCSS/btc-43.png)
 
 7. Maka hasilnya akan bagus seperti pada gambar dibawah ini:
 
-    ![[btc-44.png]]
+   ![](asetCSS/btc-44.png)
 
 8. Ubahlah Text "Light" menjadi "Search"
 
-    ![[btc-45.png]]
+    ![](asetCSS/btc-45.png)
 
 9. Maka hasilnya akan seperti ini:
 
-    ![[btc-46.png]]
+    ![](asetCSS/btc-46.png)
 
 ## Cards dan Form
 
@@ -478,11 +478,11 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 
 1. Yang pertama kita tentunya harus menentukan layout cards nya terlebih dahulu. Hal ini bertujuan agar jika tata letak card sudah ada, maka kita tinggal mengatur form nya di dalam card tadi. Masuk ke situs bootstrap tadi lalu pilih cards
 
-    ![[btc-47.png]]
+    ![](asetCSS/btc-47.png)
 
 2. Scrol ke bawah hingga menemukan layout yang kita inginkan, misalnya seperti pada gambar:
 
-    ![[btc-48.png]]
+   ![](asetCSS/btc-48.png)
 
 3. Pada bagian bawah contoh, terdapat kode program. Salinlah kode program tersebut
 
@@ -514,7 +514,7 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 
 5. Maka hasil awalnya adalah sebagai berikut:
 
-    ![[btc-49.png]]
+    ![](asetCSS/btc-49.png)
 
 6. karena jarak atas antara card dengan batas website terlalu dekat maka pada class card tambahkan mt-2 .
 
@@ -544,7 +544,7 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 
 7. Maka hasilnya adalah seperti ini:
 
-    ![[btc-50.png]]
+    ![](asetCSS/btc-50.png)
 
 8. Sekarang kita ingin membuatnya terlihat ke tengah. Maka buatlah sebuah div dengan class yaitu "container", lalu salin masuklah kode program card tadi. Dengan kata lain, bungkuslah kode program card dengan sebuah div dengan class="container".
 
@@ -578,11 +578,11 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 
 9. Berikut hasil dari di bungkusnya cards tadi.
 
-    ![[btc-51.png]]
+   ![](asetCSS/btc-51.png)
 
 10. Sekarang kita akan membuat form nya. Pertama-tama, kita perlu membuat judul form. Caranya adalah ganti tulisan "Featured" di html kita dengan kata yang kita inginkan. misalnya pada program ini kita akan mengganti tulisan menjadi "Form Login".
 
-    ![[btc-10.png]]
+    ![](asetCSS/btc-10.png)
 
 ```html
 
@@ -652,7 +652,7 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 
 11. Hasilnya adalah sebagai berikut
 
-    ![[btc-9.png]]
+    ![](asetCSS/btc-9.png)
 
 12. Sekarang pada bagian dalam div card-body hapus semua elemen yang ada didalamnya kecuali button:
 
@@ -682,11 +682,11 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 
 13. Hasilnya akan seperti ini
 
-    ![[btc-11.png]]
+   ![](asetCSS/btc-11.png)
 
 14. Langkah selanjutnya adalah menambahkan elemen-elemen form ke dalam card-body untuk membuat formulir login. Anda dapat menggunakan elemen-elemen HTML seperti form , input , dan button untuk ini. bukalah kembali getbootstrap.com dan pilihlah form yang kita inginkan:
 
-    ![[btc-12.png]]
+   ![](asetCSS/btc-12.png)
 
 15. Salinlah kode program dibawah contoh forms tadi:
 
@@ -728,11 +728,11 @@ Sekarang kita akan membuat sebuah form, dimana form tersebut kita asumsikan seba
 
 16. Tempelkanlah didalam cards-body tadi
 
-    ![[btc-13.png]]
+   ![](asetCSS/btc-13.png)
 
 17. Maka hasilnya adalah sepert ini:
 
-    ![[btc-14.png]]
+   ![](asetCSS/btc-14.png)
 
 Dengan demikian kita sudah berhasil membuat layoutcards dimana form login sebagai kontennya
 
@@ -786,15 +786,15 @@ Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Beriku
 
 1. Masuklah kembali ke web getbootstrap.com.
 
-    ![[btc-52.png]]
+    ![](asetCSS/btc-52.png)
 
 2. carilah "Grid" di Kolom search lalu klik enter. Maka kita akan diarahkan pada halaman web yang berisi tentang grid.
 
-    ![[btc-53.png]]
+    ![](asetCSS/btc-53.png)
 
 3. Carilah layout atau tata letak grid yang kita inginkan. Misalnya pada praktek kali ini, kita akan menggunakan layout "Row columns".
 
-    ![[btc-54.png]]
+    ![](asetCSS/btc-54.png)
 
 4. Salinlah kode program yang terletak di kode bawah contohnya.
 
@@ -820,11 +820,11 @@ Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Beriku
 
 5. Tempelah pada file html yang tentunya telah dihubungkan dengan tautan bootstrap, baik secara offline maupun online.
 
-    ![[btc-55.png]]
+    ![](asetCSS/btc-55.png)
 
 6. Maka hasilnya akan seperti berikut:
 
-    ![[btc-56.png]]
+   ![](asetCSS/btc-56.png)
 
     *Keterangan:*
 
@@ -902,7 +902,7 @@ Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Beriku
 
 8. Hasil nya akan menjadi seperti berikut:
 
-    ![[btc-57.png]]
+   ![](asetCSS/btc-57.png)
 
     *Keterangan:*
 
@@ -910,7 +910,7 @@ Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Beriku
 
 9. Apabila layar yang kita kecilkan, maka grid akan menyesuaikan ukurannya seperti pada gambar ini
 
-    ![[btc-58.png]]
+    ![](asetCSS/btc-58.png)
 
     *Keterangan:*
 
@@ -918,7 +918,7 @@ Sekarang kita akan mencoba penggunaan grid yang dengan bantuan Bootstrap. Beriku
 
 10. Apabila kita melihatnya di perangkat, maka akan terlihat seperti ini:
 
-    ![[btc-59.png]]
+   ![](asetCSS/btc-59.png)
 
     *Keterangan:*
 
@@ -944,11 +944,11 @@ Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class d
 
 1. Bukalah kembali web getbootsrap lalu di kolom pencarian carilah "grid".
 
-    ![[btc-60.png]]
+   ![](asetCSS/btc-60.png)
 
 2. Cari dan copylah kembali codingan grid yang kita gunakan pada praktek sebelumnya.
 
-    ![[btc-61.png]]
+   ![](asetCSS/btc-61.png)
 
 ```html
 
@@ -972,11 +972,11 @@ Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class d
 
 3. Tempelkanlah codingan tadi di visual studio kode pada file tempat kita mempraktekkan grid pada praktikum sebelumnya, agar kita bisa menggunakan satu file saja untuk praktek.
 
-    ![[btc-62.png]]
+   ![](asetCSS/btc-62.png)
 
 4. Maka akan terlihat seperti gambar di bawah ini:
 
-    ![[btc-63.png]]
+    ![](asetCSS/btc-63.png)
 
     *Keterangan*:
 
@@ -1004,17 +1004,17 @@ Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class d
 
 ```
 
-![[btc-65.png]]
+![](asetCSS/btc-65.png)
 
 6. Maka hasilnya akan menjadi seperti ini:
 
     **Sebelum:**
 
-    ![[btc-66.png]]
+    ![](asetCSS/btc-66.png)
 
     **Sesudah:**
 
-    ![[btc-67.png]]
+   ![](asetCSS/btc-67.png)
 
   
 
@@ -1110,11 +1110,11 @@ Sekarang kita akan coba untuk membuat sebuah tampilan dengan menggunakan class d
 
 ```
 
-![[btc-100.png]]
+![](asetCSS/btc-100.png)
 
 8. Maka hasilnya akan seperti ini:
 
-    ![[btc-68.png]]
+   ![](asetCSS/btc-68.png)
 
     *Keterangan:*
 
@@ -1148,35 +1148,35 @@ Kita dapat membuat tema kostuminasi Bootstrap yang sesuai dengan kebutuhan dan g
 
 1. Jadi misalnya kita ingin memberikan tema pada website yang telah kita buat sebelumnya
 
-    ![[btc-70.png]]
+    ![](asetCSS/btc-70.png)
 
 2. Bukalah website bootswacth.com dimana website ini menyediakan tema tema yang dapat digunakan untuk web bootstrap kia.
 
-    ![[btc-71.png]]
+    ![](asetCSS/btc-71.png)
 
 3. Scroll lah ke bawah hingga kita menemukan kumpulan tema tema yang telah disediakaan oleh website ini
 
-    ![[btc-72.png]]
+    ![](asetCSS/btc-72.png)
 
 4. Misalnya kita akan memilih tema "Darkly", oleh karena itu, klik download pada bagian bawah contoh tema tersebut.
 
-    ![[btc-73.png]]
+    !![](asetCSS/btc-73.png)
 
 5. Jika sudah mendownloadnya maka kita telah mendapatkan file css untuk tema tersebut
 
-    ![[btc-74.png]]
+    ![](asetCSS/btc-74.png)
 
 6. Pindahkanlah file css tersebut ke dalam folder yang berisi file html yang akan kita berikan tema
 
-    ![[btc-75.png]]
+    ![](asetCSS/btc-75.png)
 
 7. Sekarang, masuklah ke dalam file html yang akan kita berikan tema bootstrap, lalu panggillah secara eksternal file css tema tadi ke dalam file html tersebut
 
-    ![[btc-76.png]]
+   ![](asetCSS/btc-76.png)
 
 8. Maka hasilnya adalah sebagai berikut dengan demikian kita sudah berhasil memberikan tema gelap pada tampilan html kita menggunakan tema dark pada bootstrap
 
-    ![[btc-77.png]]
+    ![](asetCSS/btc-77.png)
 
     dengan demikian kita sudah berhasil memberikan tema gelap pada tampilan html kita menggunakan tema dark pada bootstrap
 
@@ -1204,51 +1204,51 @@ Berikut cara mengkostumisasi template bootstrap:
 
 1. Pertama adalah kita akan membuka sebuah website yang menyediakan template bootstrap. Kali ini web akan kita gunakan adalah themewagon.com
 
-    ![[btc-78.png]]
+   ![](asetCSS/btc-78.png)
 
 2. Masuklah ke dalam website tersebut
 
-    ![[btc-79.png]]
+    ![](asetCSS/btc-79.png)
 
 3. Carilah template yang ingin kita sesuaikan dengan cara mensearch ataupun menscroll hingga menemukan tema yang sesuai
 
-    ![[btc-80.png]]
+    ![](asetCSS/btc-80.png)
 
 4. Jika sudah menemukan template yang kita inginkan, masuk ke template tersebut lalu klik download pada bagian kanan sebelah, contoh gambar dibawah ini.
 
-    ![[btc-81.png]]
+   ![](asetCSS/btc-81.png)
 
 5. Jika sudah mendownloadnya maka kita telah mendapatkan file template bootsrap kita dalam bentuk zip. File ini berisi asset gambar, style css, index tml, maupun javascript yang menyusun komponen template ini
 
-    ![[btc-82.png]]
+    ![](asetCSS/btc-82.png)
 
 6. Ekstraklah file tersebut hingga berbentuk seperti file biasa dengan cara klik kanan pada file zip tadi lalu pilih "Extract All".
 
-    ![[btc-83.png]]
+   ![](asetCSS/btc-83.png)
 
 7. Jika proses ekstrak sudah selesai maka kita tela mendapatkan folder template tersebut dalam bentuk folder biasa
 
-    ![[btc-84.png]]
+    ![](asetCSS/btc-84.png)
 
 8. Masuklah ke dalam folder template yang telah diekstrak tadi
 
-    ![[btc-85.png]]
+   ![](asetCSS/btc-85.png)
 
 9. Masuklah ke dalam folder index.html. didalam sana terdapat tampilan template kita
 
-    ![[btc-86.png]]
+   ![](asetCSS/btc-86.png)
 
 10. Sekarang kita akan mengkostumasisasi tampilan web template ini. Caranya adalah buka file template nya di visual studio code
 
-    ![[btc-87.png]]
+   ![](asetCSS/btc-87.png)
 
 11. Mulailah mengganti konten-konten seperti teks, gambarm dan lainnya seperti yang kita inginkan. Misalnya saya akan mengganti teks yang ada di gambar ini
 
-    ![[btc-.png]]
+   ![](asetCSS/btc-.png)
 
 12. Buka kembali visual studio dan masuk ke file index.html tersebut lalu carilah penyusun konten itu
 
-    ![[btc-88.png]]
+   ![](asetCSS/btc-88.png)
 
 13. Gantilah kalimat dan tujuan email dan nomor telp itu dengan yang kita inginkan
 
@@ -1264,11 +1264,11 @@ Berikut cara mengkostumisasi template bootstrap:
 
 Maka hasilnya akan terlihat seperti dibawah ini:
 
-    ![[btc-89.png]]
+   ![](asetCSS/btc-89.png)
 
 14. Mulailah mengganti elemen-elemen lainnya sesuai keinginan kita. Misalnya kita ingin juga mengganti logo yang ada di website ini
 
-    ![[btc-90.png]]
+    ![](asetCSS/btc-90.png)
 
 ```html
 
@@ -1282,11 +1282,11 @@ Maka hasilnya akan terlihat seperti dibawah ini:
 
 15. Hasil setelah diganti adalah seperti ini
 
-    ![[btc-91.png]]
+   ![](asetCSS/btc-91.png)
 
 16. Sekarang kita akan mengganti Nama web kita yang ada di slide carousel
 
-    ![[btc-92.png]]
+    ![](asetCSS/btc-92.png)
 
 ```html
 
@@ -1322,11 +1322,11 @@ Maka hasilnya akan terlihat seperti dibawah ini:
 
 Hasilnya akan menjadi seperti ini:
 
-    ![[btc-93.png]]
+   ![](asetCSS/btc-93.png)
 
 17. bagaimana jika kita ingin mengganti gambar? Misalnya kita akan mengganti gambar yang ada di card ini
 
-    ![[btc-94.png]]
+    ![](asetCSS/btc-94.png)
 
 18. Masuklah ke visual studio code dan ke index.html tadi lalu carilah kode penyusun untuk gambar ini, kemudian gantilah di bagian src gambar yang sudah ada dengan gambar yang kita inginkan
 
@@ -1342,7 +1342,7 @@ Hasilnya akan menjadi seperti ini:
 
 Maka haslinya akan menjadi seperti ini:
 
-    ![[btc-95.png]]
+  ![](asetCSS/btc-95.png)
 
 Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat mengganti text, gambar, link tujuan, atau menambahkan elemen tertentu sesuai dengan kebutuhan kita. Ini tentunya sangat menghemat waktu dan tenaga, dimana kita hanya fokus pada konten yang kita sajikan dibanding harus menyusun grid, responsif, dan lainnya dari awal
 
@@ -1350,7 +1350,7 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 
 **Contoh Desain Web Yang Akan di Implementasikan**:
 
-![[bf-1.jpg]]
+  ![](asetCSS/bf-1.jpg)
 
 1. dalam desain web tersebut terdapat beberapa komponen, yaitu
 
@@ -1374,11 +1374,11 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 
 3. Selanjutnya kita akan implementasikan navbarnya, bukalah kembali web getbootsrap lalu di kolom pencarian carilah "navbar".
 
-       ![[bf-2.png]]
+      ![](asetCSS/bf-2.png)
 
 4. Cari dan copylah codingan komponen navbar yang mungkin sesuai dengan desainnya.
 
-       ![[bf-3.png]]
+      ![](asetCSS/bf-3.png)
 
 ```html
 
@@ -1404,7 +1404,7 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 
 6. Maka hasilnya akan seperti ini:
 
-       ![[bf-4.png]]
+      ![](asetCSS/bf-4.png)
 
 7. Sekarang pada bagian dalam div `navbar-collapse` hapus elemen form:
 
@@ -1414,11 +1414,11 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 
 ```
 
-![[bf-r1.png]]
+  ![](asetCSS/bf-r1.png)
 
 8. Hasilnya akan seperti ini:
 
-       ![[bf-5.png]]
+   ![](asetCSS/bf-5.png)
 
 9. Langkah Selanjutnya kita perlu mengganti list list serta nama logo pada navbarnya
 
@@ -1438,7 +1438,7 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 
   
 
-![[bf-6.png]]
+  ![](asetCSS/bf-6.png)
 
 10. Kemudian tambah tombol `sign-up`  di sebelah kanan, sama seperti form namun kita berikan tag anchor
 
@@ -1462,13 +1462,13 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 
   
 
-![[bf-7.png]]
+  ![](asetCSS/bf-7.png)
 
 11. Selanjutnya ganti background navbarnya dari `bg-body-tertiary` menjadi transparan dengan menggunakan class `bg-trasnparent`
 
-![[bf-r2.png]]
+  ![](asetCSS/bf-r2.png)
 
-    ![[bf-8.png]]
+  ![](asetCSS/bf-8.png)
 
 12. Sekarang kita akan menengahkan list navbarnya dengan menggunakan class `m-auto`
 
@@ -1476,15 +1476,15 @@ Demikianlah kostumisasi template bootstrap ini. Kesimpulanya kita dapat menggant
 
 sebelum
 
-![[bf-9.png]]
+  ![](asetCSS/bf-9.png)
 
 sesudah
 
-![[bf-10.png]]
+  ![](asetCSS/bf-10.png)
 
 13. Hasilnya akan seperti ini:
 
-    ![[bf-11.png]]
+     ![](asetCSS/bf-11.png)
 
 14. Sekarang kita akan implementasikan komponen hero section, tuliskan kode berikut.
 
@@ -1520,7 +1520,7 @@ sesudah
 
 16. Hasilnya akan seperti ini:
 
-    ![[bf-12.png]]
+     ![](asetCSS/bf-12.png)
 
 17. Disini text nya hanya ke tengah secara horizontal, agar dapat ke tengah secara vertikal perlu kita atur tinggi pada hero sectionnya dengan external style
 
@@ -1540,7 +1540,7 @@ sesudah
 
 18. Hasilnya akan seperti ini:
 
-    ![[bf-13.png]]
+     ![](asetCSS/bf-13.png)
 
 19. Sekarang kita akan implementasikan komponen button nya, dapat kita lihat pada desainnya terdapat dua button sejajar secara horizontal, maka kita perlu memakai flexbox yang disediakan oleh bootstrap.
 
@@ -1562,7 +1562,7 @@ sesudah
 
   
 
-![[bf-14.png]]
+  ![](asetCSS/bf-14.png)
 
 20. Selanjutnya kita perlu beri space dari setiap buttonnya, dan beri warna pada button sebelah kiri
 
@@ -1594,7 +1594,7 @@ sesudah
 
   
 
-![[bf-15.png]]
+  ![](asetCSS/bf-15.png)
 
 21. Sekarang kita akan mengganti background body nya
 
@@ -1608,7 +1608,7 @@ sesudah
 
 22. Hasilnya akan seperti ini:
 
-    ![[bf-16.png]]
+   ![](asetCSS/bf-16.png)
 
 # Best Practices dan Tips
 

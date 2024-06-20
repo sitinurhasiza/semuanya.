@@ -21,7 +21,8 @@ https://youtu.be/JojQd-l7fEE?si=OPIB01q45A2FmY1x
 ## Query
 ``<mysql -u root -p>``
 ## Hasil
-![](asetBASISDATA/aset1.jpg)
+
+![](asetBASISDATA/aset12.jpg)
 
 
 ## Analisis kesimpulan
@@ -39,7 +40,8 @@ Database (basis data) adalah kumpulan terstruktur dari informasi yang disimpan s
 ``create database xi_rpl_1;``
 
 ### Hasil:
-![](asetBASISDATA/aset2.jpg)
+
+![](asetBASISDATA/aset1.jpg)
 
 ## Tampilkan data base
 `SHOW DATABASE` digunakan untuk menampilkan daftar database yang ada dalam sistem manejemen basis data (DBMS). Perintah ini dapat digunakan di beberapa DBMS seperti MYSQL, PostgreSQL, dan beberapa DBMS lainnya. Namun, perintahnya dapat sedikit berbeda tergantung
@@ -47,20 +49,23 @@ Database (basis data) adalah kumpulan terstruktur dari informasi yang disimpan s
 ``show databases;``
 
 ### Hasil:
-![](asetBASISDATA/aset3.jpg)
+
+![](asetBASISDATA/aset2.jpg)
 ## hapus database
 ``<DROP DATABASE [nama_database]>`` digunakan dalam sistem manajemen basis data (DBMS) untuk menghapus sebuah database beserta semua objek yang terkait dengan database tersebut, seperti tabel, indeks, tampilan, prosedur tersimpan, dan lain-lain.
 ### Query
 ``drop database xi_rpl_1``
 ### Hasil:
-![](asetBASISDATA/aset4.jpg)
+
+![](asetBASISDATA/aset3.jpg)
 
 ## gunakan data base
 ``USE [nama_database]`` digunakan dalam sistem manajemen basis data (DBMS) untuk beralih atau memilih database yang akan digunakan. Ketika Anda menggunakan perintah ``<USE>`` diikuti dengan nama database, DBMS akan mengarahkan semua perintah dan operasi selanjutnya pada database yang ditentukan.
 ### Query
 `` use xi_rpl_1; ``
 ### Hasil:
-![](asetBASISDATA/aset5.jpg)
+
+![](asetBASISDATA/aset4.jpg)
 
 # tipe data
 ## angka
@@ -92,7 +97,8 @@ Perintah `"CREATE TABLE"` digunakan dalam SQL untuk membuat sebuah tabel baru da
 `create table [nama yang diinginkan]`
 
 ### Hasil
-![](asetBASISDATA/aset6.jpg)
+
+![](asetBASISDATA/aset5.jpg)
 
 #### Analisis
 1. create table pelanggan adalah kode yang digunakan untuk membuat tabel baru dan pelanggan adalah nama tabel nya
@@ -148,7 +154,8 @@ MariaDB [rental_cica]> insert into PELANGGAN
 ```
 
 ### Hasil
-![](asetBASISDATA/aset8.jpg)
+
+![](asetBASISDATA/aset6.jpg)
 
 ###  analisis
 1. `insert into` adalah query yang digunakan untuk menginput isi table

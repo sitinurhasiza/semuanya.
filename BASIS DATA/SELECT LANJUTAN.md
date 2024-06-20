@@ -8,7 +8,8 @@ SELECT kolom1,kolom2 FROM [nama_tabel] WHERE kolom1="nilai" AND kolom2="nilai2";
 SELECT warna,pemilik FROM mobil WHERE warna="Biru" AND pemilik="HASIZA";
 ```
 ## Hasil
-![[cc.png]]
+
+![](asetBASISDATA/cc.png)
 
 ## Analisis
 - SELECT *: Bagian kueri ini menentukan bahwa Anda ingin mengambil semua kolom dari tabel.
@@ -27,7 +28,8 @@ SELECT kolom1,kolom2 FROM [nama_tabel] WHERE kolom1="nilai" AND kolom2="nilai2";
 SELECT warna,pemilik FROM mobil WHERE warna="Biru" OR pemilik="HASIZA";
 ```
 ## Hasil
-![[b (8).png]]
+
+![](asetBASISDATA/aset13.png)
 ## Analisis
 - Kolom "warna" memiliki nilai "Biru".
 - Kolom "pemilik" memiliki nilai "HASIZA".
@@ -37,7 +39,7 @@ Kesimpulan "SELECT * FROM mobil WHERE warna='BIRU' OR pemilik='HASIZA'; adalah b
 # BETWEEN 
 ## Struktur Query
 ```MYSQL
-SELECT * FROM [nama_tabel] WHERE kolom1 BETWEEN nilai1 AND nilai2;
+SELECT * FROM []nama_tabel] WHERE kolom1 BETWEEN nilai1 AND nilai2;
 ```
 ## Contoh Query
 ```MYSQL
@@ -45,7 +47,7 @@ SELECT * FROM [nama_tabel] WHERE kolom1 BETWEEN nilai1 AND nilai2;
 ```
 ## Hasil
 
-![[b (9).png]]
+![](asetBASISDATA/aset14.png)
 ## Analisis
 - SELECT : Ini merupakan bagian dari perintah SELECT yang digunakan untuk menentukan kolom mana yang ingin Anda ambil dari tabel. Dalam hal ini, tanda "" digunakan untuk mengambil semua kolom yang ada di tabel "mobil".
 - FROM mobil : Ini menentukan bahwa data akan diambil dari tabel bernama "mobil".
@@ -63,7 +65,7 @@ SELECT * FROM [nama_tabel] WHERE kolom1 BETWEEN nilai1 AND nilai2;
  SELECT * FROM mobil WHERE harga_rental NOT BETWEEN 1000000000 AND 300000000000;
 ```
 ## Hasil
-![[b (10).png]]
+![](asetBASISDATA/aset15.png)
 ## Analisis
 - `SELECT `: Bagian ini menentukan bahwa Anda ingin mengambil semua kolom dari tabel yang ditentukan.
 - FROM mobil: Ini menunjukkan bahwa Anda menanyakan tabel bernama mobil.
@@ -81,7 +83,7 @@ SELECT * FROM mobil WHERE harga_rental <= 50000;
  SELECT * from mobil WHERE harga_rental <= 300000000000;
 ```
 ## Hasil
-![[b (11).png]]
+![](asetBASISDATA/aset16.png)
 ## Analisis
 - SELECT *: Bagian kueri ini digunakan untuk menentukan kolom yang ingin Anda ambil. Tanda bintang `(*)`adalah karakter wildcard yang mewakili semua kolom dalam tabel "mobil".
 - FROM mobil: Menentukan tabel tempat Anda ingin mengambil data, dalam hal ini, tabel "mobil".
@@ -100,7 +102,7 @@ SELECT * FROM mobil WHERE harga_rental >= 50000;
  SELECT * from mobil WHERE harga_rental >= 23500000000000;
 ```
 ## Hasil
-![[b (12).png]]
+![](asetBASISDATA/aset17.png)
 ## Analisis
  - SELECT digunakan untuk memilih kolom atau data yang ingin ditampilkan dalam hasil query.
 - Tanda bintang ('*')  setelah kata kunci SELECT menunjukkan bahwa semua kolom dalam tabel "mobil" akan ditampilkan dalam hasil query.
@@ -123,7 +125,7 @@ SELECT * FROM mobil where harga_rental <> 1000000000;
 SELECT * FROM mobil where harga_rental != 300000000000;
 ```
 ## Hasil
-![[b (13).png]]
+![](asetBASISDATA/aset18.png)
 ## Analisis
 - SELECT : Ini menentukan bahwa Anda ingin memilih semua kolom dari tabel.
 - FROM mobil : Ini menentukan nama tabel "mobil" dari mana Anda ingin mengambil datanya.
@@ -134,9 +136,9 @@ Kesimpulan dari  "SELECT * FROM mobil WHERE harga_rental <> 300000000000;" adala
 
 ## Hasil
 
-![[b (35).png]]
+![[b11.png]]
 
-![[b (34).png]]
+![[aset30.png]]
 
 ## Analisis
 1. **SELECT nama**:
@@ -174,7 +176,7 @@ SELECT * FROM [nama_tabel] WHERE [nama_kolom1] IN("nilai1","nilai2");
  SELECT * FROM mobil WHERE warna IN("SILVER","Hitam");
 ```
 ## Hasil
-![[b (14).png]]
+![](asetBASISDATA/aset19.png)
 ## Analisis
 1. SELECT * FROM mobil : Pernyataan ini memilih semua kolom dari tabel "mobil".
 2. WHERE warna IN ('SILVER', 'Hitam') : WHERE digunakan untuk menerapkan kondisi pada hasil query. kondisi yang diterapkan adalah "warna IN ('SILVER', 'Hitam')", yang berarti hanya baris dengan nilai kolom "warna" yang sama dengan 'SILVERr' atau 'Hitam' yang akan diambil.
@@ -195,7 +197,8 @@ SELECT * FROM [nama_tabel]
     -> AND harga_rental = 1000000000;
 ```
 ## Hasil
-![[c (2).png]]
+
+![](asetBASISDATA/b9.png)
 ## Analisis
 1. SELECT * FROM mobil : memilih semua kolom (*) dari tabel "mobil".
 2. WHERE warna in('Hitam','SILVER') AND harga_rental = 1000000000 : Pernyataan WHERE digunakan untuk menerapkan kondisi pada hasil query. terdapat dua kondisi yang diterapkan :
@@ -219,7 +222,7 @@ SELECT * FROM mobil
     -> OR harga_rental = 1000000000;
 ```
 ## Hasil
-![[dd.png]]
+![](asetBASISDATA/dd.png)
 ## Analisis
 - SELECT * : Ini memilih semua kolom dari tabel.
 - FROM mobil : Ini menentukan nama tabel sebagai "mobil" dari mana data akan diambil.
@@ -254,7 +257,7 @@ select * from nama_tabel
 ```
 
 ## Hasil
-![[b (15).png]]
+![](asetBASISDATA/aset20.png)
 ## Analisis
 - Tabel yang diambil tidak disebutkan secara eksplisit dalam pernyataan, hanya disebutkan sebagai `nama_tabel`.
 - Kondisi pertama adalah `nama_kolom` harus sama dengan 'nilai1' atau 'nilai2', yang didefinisikan dengan klausa `IN ('nilai1', 'nilai2')`.
@@ -282,7 +285,7 @@ SELECT * FROM mobil
 ```
 ### Hasil 
 
-![[b (17).png]]
+![](asetBASISDATA/aset22.png)
 ### Analisis
 1. SELECT * FROM mobil : Ini akan mengambil semua kolom dari tabel mobil.
 2. WHERE pemilik LIKE '%m' : Ini akan memfilter data hanya untuk mobil yang dimiliki oleh pemilik yang nama terakhirnya adalah 'm' atau berisi huruf 'm'. Tanda persen '%' digunakan sebagai wildcard untuk mencari nama pemilik yang mengakhiri dengan 'm' atau berisi huruf 'm' di mana saja.
@@ -302,7 +305,8 @@ SELECT * FROM mobil
 ```
 
 ### Hasil
-![[b (16).png]]
+
+![](asetBASISDATA/aset21.png)
 ### Analisis
 1. SELECT * FROM mobil : Ini akan mengambil semua kolom dari tabel mobil.
 2. WHERE pemilik LIKE 'b%m' : Ini akan memfilter data hanya untuk mobil yang dimiliki oleh pemilik yang nama awalnya dimulai dengan huruf 'b' dan nama terakhirnya berakhir dengan huruf 'm'. Tanda persen '%' digunakan sebagai wildcard untuk mencari nama pemilik yang dimulai dengan huruf 'b' dan mengikuti dengan karakter apapun, lalu diakhiri dengan huruf 'm'.
@@ -330,8 +334,10 @@ SELECT * FROM mobil
     -> WHERE pemilik LIKE '_____';
 ```
 ### Hasil
-![[b (18).png]]
-![[b (19).png]]
+
+![](asetBASISDATA/aset23.png)
+
+![](asetBASISDATA/aset24.png)
 ### Analisis
 - * SELECT _ :_ Bagian ini memerintahkan database untuk mengambil semua kolom dari `mobil`tabel.
 - *FROM mobil:* Ini menentukan tabel dari mana data akan diambil. Dalam hal ini, itu adalah `mobil`meja.
@@ -372,8 +378,10 @@ SELECT * FROM mobil
     -> WHERE pemilik LIKE '_S%';
 ```
 ### Hasil
-![[b (20).png]]
-![[b (21).png]]
+
+![](asetBASISDATA/aset25.png)
+
+![](asetBASISDATA/aset26.png)
 ### Analisis
 - Mencari semua data dari tabel mobil (SELECT *).
 - Di mana nilai pada kolom pemilik (WHERE pemilik LIKE '__l%'):
@@ -403,7 +411,8 @@ SELECT * FROM mobil WHERE peminjam NOT LIKE 'A%';
 SELECT * FROM mobil WHERE peminjam NOT LIKE 'A%';
 ```
 ### Hasil
-![[c (3).png]]
+
+![](asetBASISDATA/b13.png)
 ### Analisis
 1. SELECT * FROM mobil : Ini akan mengambil semua kolom dari tabel mobil.
 2. WHERE peminjam NOT LIKE 'A%' : Ini akan memfilter data hanya untuk mobil yang saat ini tidak dipinjam oleh peminjam yang nama awalnya dimulai dengan huruf 'A'. Tanda persen '%' digunakan sebagai wildcard untuk mencari nama peminjam yang dimulai dengan huruf 'A' dan mengikuti dengan karakter apapun. Tanda negasi 'NOT' digunakan untuk mengecualikan peminjam dengan nama awal yang dimulai dengan huruf 'A'.
@@ -421,7 +430,8 @@ SELECT * FROM mobil WHERE peminjam IS NULL;
 SELECT * FROM mobil WHERE peminjam IS NULL;
 ```
 ### Hasil
-![[ee.png]]
+
+![](asetBASISDATA/ee.png)
 ### Analisis
 - *SELECT _:_ Menginstruksikan untuk memilih semua kolom (atribut) dari tabel mobil.
 - *FROM mobil:* Mendefinisikan tabel tempat data akan diambil, yaitu tabel mobil.
@@ -442,7 +452,7 @@ SELECT * FROM mobil WHERE peminjam IS NOT NULL;
 SELECT * FROM mobil WHERE peminjam IS NOT NULL;
 ```
 ### Hasil
-![[b (22).png]]
+![](asetBASISDATA/aset27.png)
 ### Analisis
 1. SELECT *: Ini adalah klausa SELECT yang digunakan untuk memilih semua kolom dari tabel "mobil". Dengan menggunakan tanda bintang (*), kita memilih semua kolom yang ada dalam tabel.
 2. FROM mobil: Ini adalah klausa FROM yang menentukan tabel yang akan digunakan dalam kueri. Dalam hal ini, tabel yang digunakan adalah "mobil".
@@ -461,7 +471,8 @@ SELECT * FROM mobil ORDER BY pemilik ASC;
 SELECT * FROM mobil ORDER BY pemilik ASC;
 ```
 ### Hasil
-![[b (23).png]]
+
+![](asetBASISDATA/aset28.png)
 ### Analisis
 - `SELECT * FROM mobil`: Memilih semua kolom dari tabel `mobil`.
 - `ORDER BY pemilik ASC`: Mengurutkan hasil berdasarkan kolom `pemilik` secara naik (ascending), artinya hasilnya akan disusun dari nilai `pemilik` yang terkecil ke terbesar.
@@ -477,7 +488,8 @@ SELECT * FROM mobil ORDER BY peminjam DESC;
 SELECT * FROM mobil ORDER BY peminjam DESC;
 ```
 ### Hasil
-![[b (24).png]]
+
+![](asetBASISDATA/aset29.png)
 ### Analisis
 - `SELECT * FROM mobil`: Memilih semua kolom dari tabel `mobil`.
 - `ORDER BY peminjam DESC`: Mengurutkan hasil berdasarkan kolom `peminjam` secara menurun (descending), artinya nilai terbesar `peminjam` akan muncul terlebih dahulu di hasil.
@@ -487,13 +499,38 @@ ernyataan SQL tersebut akan menghasilkan semua baris dari tabel `mobil`, diurutk
 ## Membatasi Data Yang Tampil
 ## Struktur Query
 
+```mysql
+SELECT * FROM (nama_tabel) WHERE (nama_kolom = "nilai" ORDER BY (nama_kolom) ASC LIMIT 2;
+```
 ## Contoh Query 
 
+```mysql
+SELECT * FROM mobil WHERE warna = ”Hitam” ORDER BY harga ASC LIMIT 2;
+```
 ## Hasil
 
+![](asetBASISDATA/limit.png)
 ## Analisis
 
+- *_SELECT _:__
+    
+    - Menunjukkan bahwa semua kolom dari tabel `mobil` akan dipilih.
+- **FROM mobil:**
+    
+    - Menyatakan tabel `mobil` sebagai sumber data.
+- **WHERE warna = 'Hitam':**
+    
+    - Merupakan kondisi filter yang hanya memilih baris di mana nilai kolom `warna` adalah 'Hitam'.
+    - Pastikan penggunaan tanda kutip tunggal ('') untuk string, bukan tanda kutip ganda (””).
+- **ORDER BY harga ASC:**
+    
+    - Mengurutkan hasil berdasarkan kolom `harga` dalam urutan naik (dari yang termurah ke yang termahal).
+- **LIMIT 2:**
+    
+    - Membatasi hasil yang ditampilkan hanya pada dua baris pertama setelah pengurutan dilakukan.
 ## Kesimpulan
+
+query SELECT * FROM daftar_mobil WHERE warna = "hitam" ORDER BY harga_rental ASC LIMIT 2; akan menampilkan informasi 2 mobil berwarna hitam dengan harga rental terendah dari tabel "daftar_mobil".
 # DISTINCT
 ## Struktur
 ```sql
@@ -504,7 +541,8 @@ SELECT DISTINCT(pemilik) FROM mobil;
 SELECT DISTINCT (harga_rental) FROM mobil ORDER BY harga_rental DESC;
 ```
 ## Hasil
-![[b (25).png]]
+
+![](asetBASISDATA/b.png)
 ## Analisis
 - Perintah ini akan mengambil nilai unik dari kolom `pemilik` dari tabel `mobil`.
 - Klausa `DISTINCT` digunakan untuk memastikan bahwa setiap nilai yang dikembalikan hanya muncul satu kali.
@@ -517,7 +555,6 @@ SELECT DISTINCT (harga_rental) FROM mobil ORDER BY harga_rental DESC;
 kedua pernyataan SQL ini digunakan untuk mengambil nilai unik dari kolom tertentu dari tabel `mobil`, dengan perintah pertama mengambil pemilik mobil yang unik, dan perintah kedua mengambil harga rental yang unik dan diurutkan dari harga tertinggi ke terendah.
 
 # CONCAT,CONCAT_WS,AS
-## Struktur Query
 
 ## Menggabungkan kolom tanpa pemisah
 
@@ -538,7 +575,8 @@ SELECT CONCAT (pemilik,warna) FROM mobil;
 ```
 
 ### Hasil
-![[b (26).png]]
+
+![](asetBASISDATA/b12.png)
 ### Analisis
 
 - `SELECT` digunakan untuk memilih kolom yang ingin ditampilkan.
@@ -570,7 +608,8 @@ SELECT CONCAT_WS ("-",no_plat,no_mesin,id_mobil) FROM mobil;
 ```
 
 ### Hasil
-![[b (27).png]]
+
+![](asetBASISDATA/b1.png)
 ### Analisis
 
 - **`SELECT`** digunakan untuk memilih kolom yang ingin ditampilkan.
@@ -606,7 +645,7 @@ SELECT CONCAT_WS ("+",pemilik,peminjam) AS COLLAB FROM mobil;
 ```
 
 ### Hasil
-![[b (28).png]]
+![](asetBASISDATA/b2.png)
 ### Analisis
 
 - **`SELECT`** digunakan untuk memilih kolom yang ingin ditampilkan.
@@ -640,7 +679,7 @@ Create View Info_no_plat AS
     -> Where pemilik = "ASIZA";
 ```
 
-![[c (4).png]]
+![](asetBASISDATA/b10.png)
 
 Menampilkan Tabel Virtual
 ```mysql
@@ -693,12 +732,13 @@ CREATE VIEW mobil_tanpa_peminjam AS : adalah perintah untuk membuat sebuah view 
 ### Query
 ```mysql
 CREATE VIEW
-    -> mobil_tanpa_peminjam AS
+    -> mobil_tanpa_peminjaman AS
     -> SELECT no_plat,peminjaman
-    -> FROM mobil
-    -> WHERE peminjaman IS NULL;
-
+    -> FROM daftar_mobil;
 ```
+
+### Hasil
+![](asetBASISDATA/ss40.png)
 ### Kesimpulan
 CREATE VIEW mobil_tanpa_peminjam AS Select no_plat, peminjaman FROM mobil WHERE peminjaman IS NULL; digunakan untuk membuat sebuah view baru bernama mobil_Tanpa_peminjam. Viewnya berisi dua kolom, yaitu no_plat dan peminjaman, yang diambil dari tabel mobil hanya baris-baris yang memiliki nilai NULL pada kolom peminjam yang dimasukkan ke dalam view. 
 
@@ -707,7 +747,7 @@ SELECT * FROM mobil_tanpa_peminjam; digunakan untuk menampilkan semua data dari 
 ### Penjelasan
 UPDATE mobil: adalah perintah untuk memperbarui data dalam tabel yang disebut mobil.
 - SET peminjaman = NULL : menetapkan nilai kolom peminjam menjadi NULL.
-- WHERE peminjam= 'ALYA' : adalah klausa WHERE yang membatasi update hanya pada baris-baris dimana nilai kolom peminjam adalah 'ALYA'. Maksudnya perubahan hanya akan berlaku untuk baris-baris yang memiliki peminjam dengan nama 'ALYA'.
+- WHERE peminjam= 'afdal' : adalah klausa WHERE yang membatasi update hanya pada baris-baris dimana nilai kolom peminjam adalah 'afdal'. Maksudnya perubahan hanya akan berlaku untuk baris-baris yang memiliki peminjam dengan nama 'afdal'.
 
 - SELECT *: adalah perintah untuk memilih semua kolom dari view atau tabel.
 - FROM mobil_tanpa_peminjam: Menunjukkan bahwa data diambil dari view yang disebut "mobil_tanpa_peminjam", yang telah dibuat sebelumnya.
@@ -716,13 +756,16 @@ UPDATE mobil: adalah perintah untuk memperbarui data dalam tabel yang disebut mo
 ```mysql
 UPDATE mobil
     -> SET peminjaman = NULL
-    -> WHERE peminjaman = 'ALYA';
+    -> WHERE peminjaman = 'afdal';
 ```
-### Kesimpulan
-UPDATE mobil SET peminjaman = NULL WHERE peminjaman = 'ALYA'; nilai pada kolom peminjaman pada tabel `mobil`yang memiliki nilai 'ALYA' akan diubah menjadi NULL.
-Kesimpulannya, perintah digunakan untuk menghapus atau mengubah nilai peminjaman menjadi NULL untuk semua data di tabel mobil yang berada di kolom `peminjaman`memiliki nilai 'ALYA'.
+### Hasil
 
-SELECT * FROM mobil_tanpa_peminjam; digunakan untuk menampilkan semua data dari view mobil_tanpa_peminjam, yang telah dibuat sebelumnya dengan mengubah atau menghapus nilai peminjam menjadi NULL untuk tabel mobil dimana peminjam memiliki nilai ALYA.
+![](asetBASISDATA/ss41.png)
+### Kesimpulan
+UPDATE mobil SET peminjaman = NULL WHERE peminjaman = 'afdal'; nilai pada kolom peminjaman pada tabel `mobil`yang memiliki nilai 'afdal' akan diubah menjadi NULL.
+Kesimpulannya, perintah digunakan untuk menghapus atau mengubah nilai peminjaman menjadi NULL untuk semua data di tabel mobil yang berada di kolom `peminjaman`memiliki nilai 'afdal'.
+
+SELECT * FROM mobil_tanpa_peminjam; digunakan untuk menampilkan semua data dari view mobil_tanpa_peminjam, yang telah dibuat sebelumnya dengan mengubah atau menghapus nilai peminjam menjadi NULL untuk tabel mobil dimana peminjam memiliki nilai afdal.
 ## Nomor 3
 View digunakan untuk menyaring data sesuai dengan kriteria tertentu, seperti menampilkan data yang memiliki nilai NULL pada kolom tertentu atau mengubah salah satu data peminjaman menjadi NULL. Memberikan pandangan yang jelas tentang mobil yang tersedia untuk disewakan atau yang belum memiliki peminjam.
 Dengan membuat view, kita dapat membatasi akses ke data sensitif atau kolom tertentu dari tabel yang mungkin tidak perlu diakses oleh semua pengguna.
@@ -755,15 +798,12 @@ SELECT SUM(harga_rental) FROM mobil;
 ```
 
 ### Hasil
-![[aa.png]]
+![](asetBASISDATA/aa.png)
 ### Analisis
 
 - `SELECT`: Digunakan untuk mengambil data dari database.
-
 - `SUM()`: Fungsi agregat dalam SQL yang digunakan untuk menghitung jumlah nilai dalam kolom.
-
 - `harga_rental`: Ini adalah nama kolom yang ingin Anda hitung jumlahnya.
-
 - `FROM mobil`: Menentukan tabel dari mana Anda ingin mengambil datanya, dalam hal ini, tabel bernama `mobil`.
 
 ### Kesimpulan
@@ -803,8 +843,8 @@ SELECT COUNT(peminjam) FROM mobil;
 ```
 
 ### Hasil
-![[b (30).png]]
 
+![](asetBASISDATA/b3.png)
 ### Analisis 
 
 **pemilik**
@@ -862,7 +902,8 @@ SELECT MIN(harga_rental) AS MINIMAL FROM mobil;
 ```
 
 ### Hasil
-![[b (28).png]]
+
+![](asetBASISDATA/b5.png)
 ### Analisis
 
 - `SELECT`: Menunjukkan bahwa ingin mengambil data dari database.
@@ -902,7 +943,8 @@ SELECT MAX(harga_rental) AS MAXIMAL FROM mobil;
 ```
 
 ### Hasil
-![[b (32).png]]
+
+![](asetBASISDATA/b6.png)
 ### Analisis
 
 - `SELECT`: Digunakan untuk mengambil data dari database.
@@ -940,7 +982,8 @@ SELECT AVG(harga_rental) AS RATA_RATA FROM mobil;
 ```
 
 ### Hasil
-![[b (33).png]]
+
+![](asetBASISDATA/b7.png)
 ### Analisis
 
 - `SELECT AVG(harga_rental)`: Ini adalah perintah SQL yang digunakan untuk mengambil nilai rata-rata dari kolom `harga_rental`. `AVG()` adalah fungsi agregat yang digunakan untuk menghitung rata-rata dari sekumpulan nilai.
@@ -955,18 +998,24 @@ Kesimpulan dari pernyataan SQL `SELECT AVG(harga_rental) AS RATA_RATA FROM mobi
 
 # Tantangan PHP MyAdmin
 ## Hasil Relasi
-![[bb.png]]
+
+![](asetBASISDATA/bb.png)
 ## Struktur Pegawai
-![[ff.png]]
+
+![](asetBASISDATA/ff.png)
 ## Data Pegawai
-![[b (3).png]]
+
+![](asetBASISDATA/aset7.png)
 ## Before
-![[b (4).png]]
+
+![](asetBASISDATA/aset8.png)
 ## After
 ![[gg.png]]
 # Cabang
 ## Before
-![[b (5).png]]
+
+![](asetBASISDATA/aset9.png)
 ## After
-![[b (6).png]]
+
+![](asetBASISDATA/aset10.png)
 

@@ -1,4 +1,4 @@
-**
+
 
 UJIAN PRAKTIKUM BASIS DATA
 NAMA : Siti Nur Hasiza.A
@@ -49,7 +49,7 @@ create table tabel_guru (
 
 1. Buatlah tabel berikut dengan nama “tabel_guru” dan simpan di dalam database bernama “sekolah_nama_kalian” contohnya “sekolah_adrian”. Silahkan tentukan tipe data, maksimum karakter, constraint yang sesuai dengan kondisi tabel tersebut. Kemudian tampilkan struktur tabel “tabel_guru” yang telah kalian buat! 
 
-![](1.jpg)
+![](asetremed/1.jpg)
 ## Analisis
 - **CREATE TABLE**: Ini adalah perintah SQL yang digunakan untuk membuat sebuah tabel baru di dalam database.
     
@@ -89,7 +89,7 @@ insert into tabel_guru
 
 2. Masukkan data ke “tabel_guru” yang telah kalian buat di soal nomor 1 seperti data yang ada pada “tabel_guru”! 
 
-![](2.jpg)
+![](asetremed/2.jpg)
 
 ## Analisis
 - **INSERT INTO**: Ini adalah perintah SQL yang digunakan untuk menyisipkan data ke dalam tabel yang sudah ada di dalam database.
@@ -183,7 +183,7 @@ insert into tabel_guru
 ```
 
 3. Tambahkan lagi satu baris data berisi nama kalian dan isi data lainnya sesuai keinginan kalian!
-    ![](3.jpg)
+    ![](asetremed/3.jpg)
 
 ## Analisis
 - **INSERT INTO**: Ini adalah perintah SQL yang digunakan untuk menyisipkan data ke dalam tabel yang sudah ada di dalam database.
@@ -222,7 +222,7 @@ insert into tabel_guru
  SELECT * FROM tabel_guru;
 ```
 4. Tampilkan seluruh data yang telah kalian masukkan!
-    ![](4.jpg)
+    ![](asetremed/4.jpg)
 
 
 ## Analisis
@@ -246,7 +246,7 @@ SELECT * FROM tabel_guru
     -> WHERE nama_depan = "Rusdyansyar";
 ```
 5. Tampilkan seluruh data dari “Rusdyansyar” tanpa mengikutkan data guru-guru yang lain!
-    ![](5.jpg)
+    ![](asetremed/5.jpg)
 
 
 ## Analisis
@@ -269,7 +269,7 @@ Perintah `SELECT * FROM tabel_guru WHERE nama_depan = "Rusdyansyar";` mengambil 
 UPDATE tabel_guru set nama_belakang="Ganteng" WHERE id_guru="2";
 ```
 6. Ganti “nama_belakang” untuk “id_guru” yang bernilai “2” menjadi “Ganteng”, lalu tampilkan seluruh data kalian! (7 poin)
-    ![](6.jpg)
+    ![](asetremed/6.jpg)
 
 ## Analisis
 - **UPDATE**: Ini adalah perintah SQL yang digunakan untuk mengubah atau memperbarui data yang ada dalam tabel database.
@@ -293,7 +293,7 @@ Perintah tersebut mengubah nilai kolom "nama_belakang" menjadi "Ganteng" hanya u
  DELETE FROM tabel_guru WHERE id_guru="5";
 ```
 7. Hapuslah data yang kalian masukkan pada soal nomor 3, lalu tampilkan seluruh data kalian! (7 poin)
-    ![](7.jpg)
+    ![](asetremed/7.jpg)
 
 
 ## Analisis
@@ -325,7 +325,7 @@ SELECT * FROM tabel_guru
 |id_guru|nama_depan|nama_belakang|mapel|jabatan|usia|tanggal_lahir|
 |4|Rusdyansyar||Pemrograman Berorientasi Objek|Asisten Kepala Sekolah|25|1996-01-21|
 |3|Muhammad|Yusuf|Pemodelan Perangkat Lunak||28|1992-12-24|
-![](8.jpg)
+![](asetremed/8.jpg)
   
 ## Analisis
 1. **SELECT * FROM tabel_guru**: Ini adalah perintah untuk memilih semua kolom dari tabel "tabel_guru".
@@ -353,7 +353,7 @@ Perintah tersebut mengambil semua informasi tentang guru-guru yang mengajar mata
 | id_guru | nama_depan |
 | 1       | Adrianty   |
 | 2       | Ibrahim    |
-![](9.jpg)
+![](asetremed/9.jpg)
 
 
 ## Analisis
@@ -378,7 +378,7 @@ SELECT CONCAT_WS (" ", nama_depan, nama_belakang) AS nama_lengkap FROM tabel_gur
 | Ibrahim Ganteng |
 | Muhammad Yusuf  |
 | Rusdyansyar     |
-![](10.jpg)
+![](asetremed/10.jpg)
   
 ## Analisis
 - **SELECT CONCAT_WS(" ", nama_depan, nama_belakang) AS nama_lengkap**: Ini adalah perintah untuk membuat kolom baru dengan nama "nama_lengkap". Fungsi CONCAT_WS() digunakan untuk menggabungkan nilai dari beberapa kolom menjadi satu nilai, dalam hal ini "nama_depan" dan "nama_belakang", dengan menggunakan spasi sebagai pemisah. Alias "nama_lengkap" diberikan kepada kolom baru yang dihasilkan.
@@ -394,7 +394,7 @@ ALTER table tabel_guru
     -> ADD STATUS ENUM ("PNS", "PPPK", "Honorer");
 ```
 11. Tambahkan sebuah kolom baru dengan nama “status”. Lengkapi seluruh data pada kolom tersebut! Data yang bisa dimasukkan oleh user hanya dapat bernilai “PNS” atau ”PPPK” atau ”Honorer”, sehingga berikan tipe data yang tepat untuk kolom tersebut! Tampilkan struktur tabel dan hasil dari inputan data kalian! (10 poin)
-    ![](11.jpg)
+    ![](asetremed/11.jpg)
 
 ## Analisis
 - **ALTER TABLE**: Ini adalah perintah SQL yang digunakan untuk mengubah struktur tabel yang sudah ada.
@@ -417,7 +417,7 @@ SELECT nama_depan, MAX(usia) AS usia FROM tabel_guru;
 |---|---|
 |nama_depan|usia|
 |Adrianty|34|
-![](12.jpg)
+![](asetremed/12.jpg)
 ## Analisis
 - **SELECT nama_depan, MAX(usia) AS usia**: Ini adalah perintah untuk memilih dua kolom dari tabel "tabel_guru". Kolom pertama adalah "nama_depan", dan kolom kedua adalah nilai maksimum dari kolom "usia", yang diberi alias "usia" menggunakan fungsi agregat MAX().
     

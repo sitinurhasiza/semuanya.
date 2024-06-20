@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6072307a7f77cc27",
+        "id": "f99ae5938d0afc98",
         "type": "tabs",
         "children": [
           {
-            "id": "004b1b5742f2e08a",
+            "id": "c19a21d9743438ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "REMED CSS.md",
+                "file": "ALTER/ALTER.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "a846a83aed86896c",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "REMED CSS.md",
+                "file": "ALTER/ALTER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "REMED CSS.md",
+                "file": "ALTER/ALTER.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "REMED CSS.md"
+                "file": "ALTER/ALTER.md"
               }
             }
           }
@@ -146,49 +146,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee41b3c2c9870334",
+  "active": "c19a21d9743438ae",
   "lastOpenFiles": [
-    "PRAKTIKUM 7/Praktikum PHP.md",
-    "PRAKTIKUM 7/asets/Penggabungan_order_Costumers.png",
-    "PRAKTIKUM 7/asets/Orders.png",
-    "PRAKTIKUM 7/asets/Customers.png",
-    "PRAKTIKUM 7/asets",
-    "PRAKTIKUM 7/aset/mada9.png",
-    "PRAKTIKUM 7/aset/mada8.png",
-    "PRAKTIKUM 7/aset/mada7.png",
-    "PRAKTIKUM 7/aset/mada6.png",
-    "PRAKTIKUM 7/aset",
-    "PRAKTIKUM 7/aseets/4P.png",
-    "PRAKTIKUM 7/aseets/3P.png",
-    "PRAKTIKUM 7/aseets/2P.png",
-    "PRAKTIKUM 7/aseets",
-    "PRAKTIKUM 7/Asett",
-    "PRAKTIKUM 7/aset/asets",
-    "PRAKTIKUM 7/aset/aset",
-    "PRAKTIKUM 7/aset/aseets",
-    "PRAKTIKUM 7/aset/Asett",
-    "PHP/PHP MYSQL.md",
-    "PRAKTIKUM 7",
-    "PRAKTIKUM 7.zip",
-    "BASIS DATA/ALTER.md",
+    "ALTER/ALTER.pdf",
+    "PHP/asetPHP/12.png",
+    "ALTER/ALTER.md",
+    "ALTER.md",
+    "ALTER/open.url",
+    "New folder",
+    "RESPONSIVE",
+    "ALTER/asetALTER/UPDATE.png",
+    "ALTER/asetALTER/TIPE1.png",
+    "ALTER/asetALTER/tambahan1.png",
+    "ALTER/asetALTER/RENAME1.png",
+    "ALTER/asetALTER/MENGUBAH.png",
+    "ALTER/asetALTER/MENGHAPUS1.png",
+    "ALTER/asetALTER/CONSTRAINT.png",
+    "ALTER/asetALTER/KOLOM1.png",
+    "ALTER/asetALTER/BATAS.png",
+    "ALTER/asetALTER",
+    "ALTER - Salin/ALTER.pdf",
+    "ALTER - Salin/ALTER.md",
+    "ALTER - Salin",
+    "TugasUlangan/Tugas.md",
+    "TugasUlangan/Tugas.pdf",
     "REMED BASIS DATA/REMED BASISDATA.md",
-    "Untitled.md",
-    "REMED BASIS DATA/asetremed.md",
-    "HTML/Pengenalan HTML.md",
-    "HTML/DESKRIPSI.md",
-    "HTML/ANALISIS PROYEK UJIAN.md",
-    "REMED CSS.md",
-    "FILTER.md",
-    "EKSPLORASI FILTER.md",
-    "BASIS DATA/SELECT LANJUTAN.md",
-    "BASIS DATA/Pengenalan BasisData.md",
-    "BASIS DATA/INSTALASI & QUERY AWAL DATABASE.md",
+    "REMED BASIS DATA/REMED BASISDATA.pdf",
+    "CSS/Pengenalan CSS+BOOSTRAP+RESPONSIVE.pdf",
     "PHP/Pengenalan PHP.md",
-    "RESPONSIVE/CSS Responsive.md",
-    "HTML/PERTEMUAN 1.md",
+    "PHP/PHP MYSQL.md",
+    "HTML/Pengenalan HTML.md",
     "HTML/Pengenalan Web.md",
+    "HTML/ANALISIS PROYEK UJIAN.md",
     "GITHUB & GIT/GITHUB & GIT.md",
-    "CSS/Pengenalan CSS.md",
-    "CSS/Boostrap.md"
+    "HTML/DESKRIPSI.md",
+    "BASIS DATA/INSTALASI & QUERY AWAL DATABASE.md",
+    "BASIS DATA/Pengenalan BasisData.md",
+    "BASIS DATA/ALTER.md",
+    "BASIS DATA/SELECT LANJUTAN.md",
+    "CSS/Pengenalan CSS+BOOSTRAP+RESPONSIVE.md",
+    "CSS/CSS Responsive.md",
+    "CSS/Boostrap.md",
+    "HTML/PERTEMUAN 1.md",
+    "PRAKTIKUM 7/Praktikum PHP.md",
+    "FILTER.md",
+    "REMED CSS.md",
+    "PBO.md",
+    "EKSPLORASI/EKSPLORASI FILTER.md"
   ]
 }

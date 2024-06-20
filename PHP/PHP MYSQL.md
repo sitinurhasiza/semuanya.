@@ -20,7 +20,8 @@ if ($koneksi) {
 ?>
 ```
 ## Hasil
-![](asetPHP/.png)
+
+![](asetPHP/20.png)
 ## Analisis
 
 1. Kode ini melakukan koneksi ke database menggunakan fungsi `mysqli_connect()`.
@@ -87,9 +88,7 @@ Kode di atas merupakan dasar untuk melakukan koneksi ke database menggunakan PHP
 
 ## Hasil
 
-
-
-  
+![](asetPHP/a3.jpeg)
 
 ## Analisis
 
@@ -250,7 +249,7 @@ Kode di atas merupakan dasar untuk melakukan koneksi ke database menggunakan PHP
 
 ![](asetPHP/php3.png)
 
-![](asetPHP/php4.png)
+![](asetPHP/a2.jpeg)
 
   
 
@@ -375,9 +374,9 @@ Kode di atas merupakan dasar untuk melakukan koneksi ke database menggunakan PHP
 
 ## Hasil
 
-![gambar](asetPHP/php5.png)
+![](asetPHP/a4.jpeg)
 
-![gambar](asetPHP/php6.png)
+![](asetPHP/a1.jpeg)
 
   
 
@@ -714,7 +713,7 @@ File session.php adalah program PHP yang melakukan proses login menggunakan sess
 
   
 
-![](asetPHP/php2.png)
+![](asetPHP/a3.jpeg)
 
 ### Analisis
 
@@ -789,7 +788,7 @@ exit;
 
 ### Hasil
 
-![](asetPHP/php10.png)
+![](asetPHP/a3.jpeg)
 
 ### Analisis
 
