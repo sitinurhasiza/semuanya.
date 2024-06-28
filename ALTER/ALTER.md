@@ -13,7 +13,7 @@ ALTER TABLE (nama_tabel) ADD (nama_kolom_baru) (tipe_data) (`opsional` = AFTER (
 
 ```mysql
 
-ALTER TABLE mobil ADD batas_peminjaman varchar(10) AFTER peminjaman;
+ ALTER TABLE tugasss ADD batas_peminjam varchar(25) AFTER peminjam;
 
 ```
 
@@ -21,11 +21,11 @@ ALTER TABLE mobil ADD batas_peminjaman varchar(10) AFTER peminjaman;
 
 BEFORE
 
-![](asetALTER/ALTER.png)
+![](asetALTER/2aset.jpg)
 
 AFTER
 
-![](asetALTER/BATAS.png)
+![](asetALTER/1aset.jpg)
 
   
 
@@ -33,19 +33,19 @@ AFTER
 
 - `ALTER TABLE`: Ini adalah perintah SQL yang digunakan untuk memodifikasi struktur tabel yang ada.
 
-- `mobil`: merupakan nama tabel yang diubah.
+- `tugasss`: merupakan nama tabel yang diubah.
 
 - `ADD`: Kata kunci ini menunjukkan bahwa sebuah kolom baru ditambahkan ke dalam tabel.
 
-- `batas_peminjaman`: Ini adalah nama kolom baru yang ditambahkan.
+- `batas_peminjam`: Ini adalah nama kolom baru yang ditambahkan.
 
 - `varchar(10)`: Ini menentukan tipe data dari kolom baru. `varchar` adalah string karakter berpanjang variabel, dan `(10)` menunjukkan bahwa itu dapat menampung hingga 10 karakter.
 
-- `AFTER peminjaman`: Ini menentukan posisi di mana kolom baru akan ditambahkan. Dalam hal ini, itu akan ditambahkan setelah kolom `peminjaman`.
+- `AFTER peminjam`: Ini menentukan posisi di mana kolom baru akan ditambahkan. Dalam hal ini, itu akan ditambahkan setelah kolom `peminjam`.
 
 ## Kesimpulan
 
-Jadi, kesimpulan program ini adalah bahwa ia menambahkan kolom `batas_peminjaman` ke tabel `mobil`, di mana kolom baru tersebut merupakan `string` teks dengan panjang maksimal 10 karakter, dan kolom ini akan ditempatkan setelah kolom `peminjaman` dalam struktur tabel.
+Jadi, kesimpulan program ini adalah bahwa ia menambahkan kolom `batas_peminjam` ke tabel `tugasss`, di mana kolom baru tersebut merupakan `string` teks dengan panjang maksimal 10 karakter, dan kolom ini akan ditempatkan setelah kolom `peminjam dalam struktur tabel.
 
 ## Tambahan
 
@@ -53,15 +53,13 @@ Jadi, kesimpulan program ini adalah bahwa ia menambahkan kolom `batas_peminjaman
 
 ```mysql
 
- UPDATE mobil SET batas_peminjaman='2024-04-24' WHERE peminjaman IS NOT NULL;
+UPDATE tugasss SET batas_peminjaman='2024-04-24' WHERE peminjam IS NOT NULL;
 
 ```
 
 ### Hasil
 
-![](asetALTER/UPDATE.png)
-
-  
+![](asetALTER/3aset.jpg)
 
 # Mengubah Nama Kolom
 
@@ -76,14 +74,12 @@ ALTER TABLE (nama_tabel) CHANGE (nama_kolom_yg_dignti) (nama_kolom_baru) (tipeda
 ## Contoh Query
 
 ```mysql
-
-ALTER TABLE mobil CHANGE batas_peminjaman deadline varchar(10);
-
+ALTER TABLE tugasss CHANGE batas_peminjaman deadline varchar(10);
 ```
 
 ## Hasil
 
-![](asetALTER/MENGUBAH.png)
+![](asetALTER/4aset.jpg)
 
   
 
@@ -91,7 +87,7 @@ ALTER TABLE mobil CHANGE batas_peminjaman deadline varchar(10);
 
 - `ALTER TABLE`: Ini adalah perintah SQL yang digunakan untuk memodifikasi struktur tabel yang sudah ada.
 
-- `mobil`: Ini adalah nama tabel yang akan diubah.
+- `tugasss`: Ini adalah nama tabel yang akan diubah.
 
 - `CHANGE batas_peminjaman deadline varchar(10)`: Ini adalah perintah untuk mengubah nama dan tipe data kolom. Kolom yang sebelumnya bernama `batas_peminjaman` akan diubah menjadi `deadline`. Selain itu, tipe data kolom ini diubah menjadi `varchar(10)`, yang berarti itu adalah string teks dengan panjang maksimal 10 karakter.
 
@@ -99,7 +95,7 @@ ALTER TABLE mobil CHANGE batas_peminjaman deadline varchar(10);
 
 ## Kesimpulan
 
-Kesimpulan perintah ini melakukan dua perubahan pada tabel `mobil`: mengubah nama kolom dari `batas_peminjaman` menjadi `deadline`, dan mengubah tipe data kolom tersebut menjadi `varchar(10)`.
+Kesimpulan perintah ini melakukan dua perubahan pada tabel `tugasss`: mengubah nama kolom dari `batas_peminjaman` menjadi `deadline`, dan mengubah tipe data kolom tersebut menjadi `varchar(10)`.
 
   
 
@@ -117,13 +113,13 @@ ALTER TABLE (nama_tabel) MODIFY (nama_kolom) (nama_tipedata);
 
 ```MYSQL
 
-ALTER TABLE mobil MODIFY deadline DATE;
+ALTER TABLE tugasss MODIFY deadline DATE;
 
 ```
 
 ## Hasil
 
-![](asetALTER/TIPE1.png)
+![](asetALTER/5aset.jpg)
 
   
 
@@ -131,13 +127,13 @@ ALTER TABLE mobil MODIFY deadline DATE;
 
 - `ALTER TABLE` adalah perintah SQL yang digunakan untuk mengubah struktur tabel yang sudah ada.
 
-- `mobil` adalah nama tabel yang akan diubah.
+- `tugasss` adalah nama tabel yang akan diubah.
 
 - `MODIFY deadline DATE` adalah klausa yang menentukan kolom `deadline` yang akan diubah dan tipe datanya menjadi `DATE`.
 
 ## Kesimpulan
 
-Kesimpulannya, program `ALTER TABLE mobil MODIFY deadline DATE;` digunakan untuk mengubah tipe data kolom `deadline` dalam tabel `mobil` menjadi `DATE`. Perubahan ini memungkinkan kolom `deadline` untuk hanya menyimpan nilai tanggal, dan memungkinkan operasi dan pemrosesan yang lebih tepat terhadap data tanggal yang terkait.
+Kesimpulannya, program `ALTER TABLE tugasss MODIFY deadline DATE;` digunakan untuk mengubah tipe data kolom `deadline` dalam tabel `tugasss` menjadi `DATE`. Perubahan ini memungkinkan kolom `deadline` untuk hanya menyimpan nilai tanggal, dan memungkinkan operasi dan pemrosesan yang lebih tepat terhadap data tanggal yang terkait.
 
 # Menambahkan constraint
 
@@ -155,15 +151,14 @@ ALTER TABLE (nama_tabel)
 
 ```MYSQL
 
-ALTER TABLE mobil
-
-    -> ALTER deadline SET DEFAULT 'Ready';
+ALTER TABLE tugasss
+    -> ALTER deadline SET DEFAULT 'Ready';
 
 ```
 
 ## Hasil
 
-![](asetALTER/CONSTRAINT.png)
+![](asetALTER/6aset.jpg)
 
   
 
@@ -171,7 +166,7 @@ ALTER TABLE mobil
 
 - `ALTER TABLE`adalah SQL
 
-- `mobil`adalah sebuah nama tabel
+- `tugasss`adalah sebuah nama tabel
 
 - `ALTER deadline`adalah sebuah klausa`deadline`dalam`desc_mobil`
 
@@ -179,7 +174,7 @@ ALTER TABLE mobil
 
 ## Kesimpulan
 
-Program `ALTER TABLE mobil ALTER deadline SET DEFAULT 'Ready';` mengubah nilai default kolom `deadline` dalam tabel `mobil` menjadi `'Ready'`. Ini berarti bahwa jika tidak ada nilai yang diberikan secara eksplisit saat melakukan operasi `INSERT` pada tabel `mobil`, maka kolom `deadline` akan memiliki nilai default `'Ready'`.
+Program `ALTER TABLE tugasss ALTER deadline SET DEFAULT 'Ready';` mengubah nilai default kolom `deadline` dalam tabel `tugasss` menjadi `'Ready'`. Ini berarti bahwa jika tidak ada nilai yang diberikan secara eksplisit saat melakukan operasi `INSERT` pada tabel `tugasss`, maka kolom `deadline` akan memiliki nilai default `'Ready'`.
 
 ## Tambahan
 
@@ -187,17 +182,14 @@ Program `ALTER TABLE mobil ALTER deadline SET DEFAULT 'Ready';` mengubah nilai
 
 ```mysql
 
-INSERT INTO mobil
-
-    -> (id_mobil,no_plat,no_mesin,warna,pemilik,peminjaman,harga_rental)
-
-    -> VALUES (7,"DD 4637 AL","ABC6547","MERAH","ALYA",NULL,200000);
-
+INSERT INTO tugasss
+    -> (id_mobil,no_plat,no_mesin,warna,pemilik,peminjam,harga_rental)
+    -> VALUES (6,"DD2224LC","H4856CH","Merah","AI","ECA",2300000000000);
 ```
 
 ### Hasil
 
-![](asetALTER/TAMBAHAN1.png)
+![](asetALTER/7aset.jpg)
 
   
 
@@ -221,15 +213,14 @@ https://revou.co/panduan-teknis/sql-constraint
 
 ```MYSQL
 
- ALTER TABLE mobil
-
-    -> ALTER deadline DROP DEFAULT;
+ ALTER TABLE tugasss
+    -> ALTER deadline DROP DEFAULT;
 
 ```
 
 ## Hasil
 
-![](asetALTER/MENGHAPUS1.png)
+![](asetALTER/8aset.jpg)
 
   
 
@@ -237,7 +228,7 @@ https://revou.co/panduan-teknis/sql-constraint
 
 - `ALTER TABLE` adalah perintah SQL yang digunakan untuk mengubah struktur tabel yang sudah ada.
 
-- `mobil` adalah nama tabel yang akan diubah.
+- `tugasss` adalah nama tabel yang akan diubah.
 
 - `ALTER deadline` adalah klausa yang menentukan kolom `deadline` yang akan diubah.
 
@@ -245,7 +236,7 @@ https://revou.co/panduan-teknis/sql-constraint
 
 ## Kesimpulan
 
-Program `ALTER TABLE mobil ALTER deadline DROP DEFAULT;` menghapus nilai default dari kolom `deadline` dalam tabel `mobil`. Setelah menjalankan program ini, kolom `deadline` tidak akan memiliki nilai default, dan jika tidak ada nilai yang diberikan secara eksplisit saat melakukan operasi `INSERT`, kolom `deadline` akan memiliki nilai `NULL`.
+Program `ALTER TABLE tugasss ALTER deadline DROP DEFAULT;` menghapus nilai default dari kolom `deadline` dalam tabel `tugasss`. Setelah menjalankan program ini, kolom `deadline` tidak akan memiliki nilai default, dan jika tidak ada nilai yang diberikan secara eksplisit saat melakukan operasi `INSERT`, kolom `deadline` akan memiliki nilai `NULL`.
 
 ## Referensi tambahan
 
@@ -265,13 +256,12 @@ ALTER TABLE mobil DROP COLUMN deadline;
 
 ```mysql
 
-ALTER TABLE mobil DROP COLUMN deadline;
-
+ALTER TABLE tugasss DROP COLUMN deadline;
 ```
 
 ## Hasil
 
-![](asetALTER/KOLOM1.png)
+![](asetALTER/9aset.jpg)
 
   
 
@@ -279,15 +269,15 @@ ALTER TABLE mobil DROP COLUMN deadline;
 
 - `ALTER TABLE`adalah perintah SQL yang digunakan untuk mengubah struktur tabel yang ada.
 
-- `mobil`adalah nama tabel yang sedang diubah.
+- `tugasss`adalah nama tabel yang sedang diubah.
 
 - `DROP COLUMN`adalah klausa yang digunakan untuk menghapus kolom tertentu dari tabel.
 
-- `deadline`adalah nama kolom yang dihilangkan dari `mobil`tabel.
+- `deadline`adalah nama kolom yang dihilangkan dari `tugasss`tabel.
 
 ## Kesimpulan
 
-Singkatnya, program ini menginstruksikan sistem manajemen basis data untuk menghapus `deadline`kolom dari `mobil`tabel. Setelah menjalankan program ini, `deadline` kolom tersebut tidak akan ada lagi di struktur tabel, dan data apa pun yang disimpan di kolom tersebut akan dihapus secara permanen.
+Singkatnya, program ini menginstruksikan sistem manajemen basis data untuk menghapus `deadline`kolom dari `tugasss`tabel. Setelah menjalankan program ini, `deadline` kolom tersebut tidak akan ada lagi di struktur tabel, dan data apa pun yang disimpan di kolom tersebut akan dihapus secara permanen.
 
 # Mengganti nama tabel
 
@@ -303,13 +293,13 @@ Singkatnya, program ini menginstruksikan sistem manajemen basis data untuk mengh
 
 ```mysql
 
- ALTER TABLE mobil RENAME TO daftar_mobil;
+ ALTER TABLE tugasss RENAME TO daftar_mobil;
 
 ```
 
 ## Hasil
 
-![](asetALTER/RENAME1.png)
+![](asetALTER/10aset.jpg)
 
   
 
@@ -317,7 +307,7 @@ Singkatnya, program ini menginstruksikan sistem manajemen basis data untuk mengh
 
 - `ALTER TABLE` adalah perintah SQL yang digunakan untuk mengubah struktur tabel yang sudah ada.
 
-- `mobil` adalah nama tabel yang akan diubah.
+- `tugasss` adalah nama tabel yang akan diubah.
 
 - `RENAME TO` adalah klausa yang digunakan untuk mengubah nama tabel.
 
@@ -325,4 +315,4 @@ Singkatnya, program ini menginstruksikan sistem manajemen basis data untuk mengh
 
 ## Kesimpulan
 
-Program `ALTER TABLE mobil RENAME TO daftar_mobil;` mengubah nama tabel `mobil` menjadi `daftar_mobil`. Setelah menjalankan program ini, tabel yang sebelumnya bernama `mobil` akan berganti nama menjadi `daftar_mobil`.
+Program `ALTER TABLE tugasss RENAME TO daftar_mobil;` mengubah nama tabel `tugasss` menjadi `daftar_mobil`. Setelah menjalankan program ini, tabel yang sebelumnya bernama `tugasss` akan berganti nama menjadi `daftar_mobil`.

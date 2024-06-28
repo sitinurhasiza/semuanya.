@@ -100,13 +100,13 @@ Isi atau konten tag merujuk pada teks, elemen, atau informasi yang ditempatkan d
 ### Align
 
 #### align left
-fungsi align left digunakan untuk merapikan kata atau kalimat yang sudah diketik agar diatur "**rata kiri**".
+- fungsi align left digunakan untuk merapikan kata atau kalimat yang sudah diketik agar diatur "**rata kiri**".
 #### align right
-fungsi align right digunakan untuk mengatur posisi paragraf menjadi "**rata kanan**".
+- fungsi align right digunakan untuk mengatur posisi paragraf menjadi "**rata kanan**".
 #### align center
-Fungsi Align Center sebenarnya bisa dilihat dari nama fiturnya atau yang berarti **rata tengah**. Dengan mengaktifkan fitur ini, kamu bisa mendapatkan tampilan teks "**rata tengah**".
+- Fungsi Align Center sebenarnya bisa dilihat dari nama fiturnya atau yang berarti **rata tengah**. Dengan mengaktifkan fitur ini, kamu bisa mendapatkan tampilan teks "**rata tengah**".
 #### align justify
-fungsi Align justify meregangkan baris sehingga setiap baris memiliki lebar yang sama
+- fungsi Align justify meregangkan baris sehingga setiap baris memiliki lebar yang sama
 ## Komentar
 HTML juga mempunyai tag khusus untuk komentar. Untuk membuat komentar diHTML kita menggunakan awalan"
 <! --" dan penutup " -- >".
@@ -337,7 +337,7 @@ tabel yang penting untuk diketahui yaitu:
 ### Contoh Tampilan Di Browser:
 ![](asetHTML/foto9.jpeg)
 
->[!faq]- Perhatikan pada konten elemen `**<td>**` yang berisi **Muhammad Alif H**, hanya terdapat satu elemen `<td>` disana. Hal ini dikarenakan konten elemen `<td>` sebelumnya yaitu SMKN 3 Makassar dan - pada data Nurfadillah mengandung atribut rowspan dengan nilai 2 yang secara otomatis mengisi data di bawahnya yakni data **Siti Nur Hasiza.A** Nilai 2 menunjukkan bahwa ada dua baris yang digabungkan menjadi satu
+ Perhatikan pada konten elemen `**<td>**` yang berisi **Muhammad Alif H**, hanya terdapat satu elemen `<td>` disana. Hal ini dikarenakan konten elemen `<td>` sebelumnya yaitu SMKN 3 Makassar dan - pada data Nurfadillah mengandung atribut rowspan dengan nilai 2 yang secara otomatis mengisi data di bawahnya yakni data **Siti Nur Hasiza.A** Nilai 2 menunjukkan bahwa ada dua baris yang digabungkan menjadi satu
 
 >[!faq]- Konsep ini juga sama dengan apa yang terjadi pada `<th` `rowspan`="2">Nama`</th>`dan `<th` `colspan`="2">Asal Institusi `</th>`
 
@@ -372,7 +372,8 @@ tabel yang penting untuk diketahui yaitu:
 #### Contoh Tampilan di Browser
 ![](asetHTML/foto28.jpeg)
 Analisis:
-Untuk tabel "Nama Hari" dan "Nama Bulan"Merupakan 2 kolom hanya tetapi di tambahkan atribut `colspan`yang akan membuat 2 kolom menjadi 1 dan begitu juga dengan kolom "Juni" yang seharusnya terdapat 2 baris tetapi karena di tambahkan atribut `rowspan`yanv membuat 2 baris menjadi 1
+
+- Untuk tabel "Nama Hari" dan "Nama Bulan" Merupakan 2 kolom hanya tetapi di tambahkan atribut `colspan`yang akan membuat 2 kolom menjadi 1 dan begitu juga dengan kolom "Juni" yang seharusnya terdapat 2 baris tetapi karena di tambahkan atribut `rowspan`yanv membuat 2 baris menjadi 1
 
 ## Form
 Elemen `<form>` HTML digunakan untuk mendefinisikan form yang digunakan untuk mengumpulkan inputan dari pengguna website. Tag ini digunakan untuk mengkoleksi inputan dari user, konsep ini sama seperti konsep formulir di dunia nyata.
@@ -608,7 +609,8 @@ html>
 #### Contoh Tampilan di Browser
 ![](asetHTML/contoh2.jpeg)
 Analisis:
-Untuk tabel "Nama Hari" dan "Nama Bulan"Merupakan 2 kolom hanya tetapi di tambahkan atribut `colspan`yang akan membuat 2 kolom menjadi 1 dan begitu juga dengan kolom "Juni" yang seharusnya terdapat 2 baris tetapi karena di tambahkan atribut `rowspan`yanv membuat 2 baris menjadi 1
+
+- Untuk tabel "Nama Hari" dan "Nama Bulan" Merupakan 2 kolom hanya tetapi di tambahkan atribut `colspan`yang akan membuat 2 kolom menjadi 1 dan begitu juga dengan kolom "Juni" yang seharusnya terdapat 2 baris tetapi karena di tambahkan atribut `rowspan`yanv membuat 2 baris menjadi 1
 # DIV & SPAN
 ## Div
 `<Div>` adalah tag HTML yang digunakan untuk membuat blok konten. Tag ini digunakan untuk mengelompokkan konten dan memberikan atribut tertentu pada blok tersebut. Contoh:
@@ -686,15 +688,9 @@ saya berikan contoh dari gambar berikut.
 
 Mungkin kalian bertanya-tanya, “Apa perbedaan antara semantic HTML dan non-semantic HTML?”
 
-  
-
 Perbedaan keduanya cukup sederhana.
 
-  
-
 Semantic HTML menggunakan elemen yang menggambarkan arti dari konten, seperti `<article>`, `<section>`, dan `<nav>`. Sedangkan non-semantic HTML menggunakan elemen seperti `<div>` dan `<span>` yang tidak mengungkapkan informasi apa pun tentang kontennya.
-
-  
 
 Untuk memahami lebih jelas, mari kita lihat contoh kode berikut:
 

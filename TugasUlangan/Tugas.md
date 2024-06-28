@@ -11,293 +11,519 @@ Setelah responsif (Setelah penambahan media query):
 ### Contoh Kode
 ```html
 <!DOKTYPE HTML>
+
 <html>
-  <head>
-    <title>  Pesona Indonesia  </title>
-    <link rel="stylesheet" href="PesonaI.css">
-  </head>
+
+  <head>
+
+    <title>  Pesona Indonesia  </title>
+
+    <link rel="stylesheet" href="tes.css">
+
+  </head>
+
 <nav class="navbar">
-        <img src="Camera/gambar1.jpg" alt="gambar1">
-        <p>Beranda</p>
-        <p>Berita</p>
-        <p>About</p>
-        <img src="Camera/Gambar2.jpg" alt="opsi" id="opsi">
-    </nav>
 
-    <div class="background">
-        <div class="text">
-            <h2>Selamat Datang di Indonesia</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
-                Quasi quibusdam blanditiis natus. Est voluptatibus eum,<br>
-                officia expedita unde reiciendis maiores, magni perspiciatis ipsum<br>
-                quae ipsam, illum beatae eaque omnis nostrum!</p>
-            <input class="button" type="button" value="klik disini!">
-        </div>
-    </div>
+        <img src="h.jpeg" alt="gambar1">
 
-    <h2 align="center">Berita</h2>
-    <div class="container">
-        <div class="box">
-            <img class="gambar" src="Camera/Gambar3.jpg" alt="pantai kuta">
-            <h3 align="center">Pantai Kuta</h3>
-            <p align="center">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br>
-                Quasi quibusdam blanditiis natus.<br> Est voluptatibus eum,<br>
-                officia expedita unde reiciendis<br> maiores, magni perspiciatis ipsum<br>
-                quae ipsam, illum beatae eaque omnis nostrum!</p>
-            <input align="center" class="tombol" type="button" value="lihat selengkapnya!">
-        </div>
+        <p>Beranda</p>
 
-        <div class="box">
-            <img class="gambar" src="Camera/gambar4.jpg" alt="pantai kuta">
-            <h3 align="center">Pantai Kuta</h3>
-            <p align="center">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br>
-                Quasi quibusdam blanditiis natus.<br> Est voluptatibus eum,<br>
-                officia expedita unde reiciendis<br> maiores, magni perspiciatis ipsum<br>
-                quae ipsam, illum beatae eaque omnis nostrum!</p>
-            <input align="center" class="tombol" type="button" value="lihat selengkapnya!">
-        </div>
+        <p>Berita</p>
 
-        <div class="box">
-            <img class="gambar" src="Camera/gambar5.jpg" alt="pantai kuta">
-            <h3 align="center">Pantai Kuta</h3>
-            <p align="center">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br>
-                Quasi quibusdam blanditiis natus.<br> Est voluptatibus eum,<br>
-                officia expedita unde reiciendis<br> maiores, magni perspiciatis ipsum<br>
-                quae ipsam, illum beatae eaque omnis nostrum!</p>
-            <input align="center" class="tombol" type="button" value="lihat selengkapnya!">
-        </div>
+        <p>About</p>
 
-        <div class="box">
-            <img class="gambar" src="Camera/gambar6.jpg" alt="pantai kuta">
-            <h3 align="center">Pantai Kuta</h3>
-            <p align="center">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br>
-                Quasi quibusdam blanditiis natus.<br> Est voluptatibus eum,<br>
-                officia expedita unde reiciendis<br> maiores, magni perspiciatis ipsum<br>
-                quae ipsam, illum beatae eaque omnis nostrum!</p>
-            <input align="center" class="tombol" type="button" value="lihat selengkapnya!">
-        </div>
-    </div>
+        <img src="a.jpeg" alt="opsi" id="opsi">
+
+    </nav>
+
   
-   <div class="container2">
-   <div> 
-   <h4> About </h4>
-   </div>  
-     <div>
-       <p> Perkenalkan Nama Saya Muhammad Fadhil Dari Kelas XI RPL 1 Moto Hidup Saya Bersyukur adalah kunci untuk membuka pintu kebahagiaan.
-       </p>
-     </div>
-  <img src="Camera/Gambar7.jpg" alt="gambar7">
-  </div>
+
+    <div class="background">
+
+        <div class="text">
+
+            <h2>Selamat Datang di Indonesia</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+
+                Quasi quibusdam blanditiis natus. Est voluptatibus eum,<br>
+
+                officia expedita unde reiciendis maiores, magni perspiciatis ipsum<br>
+
+                quae ipsam, illum beatae eaque omnis nostrum!</p>
+
+            <input class="button" type="button" value="klik disini!">
+
+        </div>
+
+    </div>
+
+  
+
+    <h2 align="center">Berita</h2>
+
+    <div class="container">
+
+        <div class="box">
+
+            <img class="gambar" src="b.jpeg" alt="pantai kuta">
+
+            <h3 align="center">Pantai Kuta</h3>
+
+            <p align="center">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br>
+
+                Quasi quibusdam blanditiis natus.<br> Est voluptatibus eum,<br>
+
+                officia expedita unde reiciendis<br> maiores, magni perspiciatis ipsum<br>
+
+                quae ipsam, illum beatae eaque omnis nostrum!</p>
+
+            <input align="center" class="tombol" type="button" value="lihat selengkapnya!">
+
+        </div>
+
+  
+
+        <div class="box">
+
+            <img class="gambar" src="a.jpeg" alt="pantai kuta">
+
+            <h3 align="center">Pantai Kuta</h3>
+
+            <p align="center">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br>
+
+                Quasi quibusdam blanditiis natus.<br> Est voluptatibus eum,<br>
+
+                officia expedita unde reiciendis<br> maiores, magni perspiciatis ipsum<br>
+
+                quae ipsam, illum beatae eaque omnis nostrum!</p>
+
+            <input align="center" class="tombol" type="button" value="lihat selengkapnya!">
+
+        </div>
+
+  
+
+        <div class="box">
+
+            <img class="gambar" src="g.jpeg" alt="pantai kuta">
+
+            <h3 align="center">Pantai Kuta</h3>
+
+            <p align="center">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br>
+
+                Quasi quibusdam blanditiis natus.<br> Est voluptatibus eum,<br>
+
+                officia expedita unde reiciendis<br> maiores, magni perspiciatis ipsum<br>
+
+                quae ipsam, illum beatae eaque omnis nostrum!</p>
+
+            <input align="center" class="tombol" type="button" value="lihat selengkapnya!">
+
+        </div>
+
+  
+
+        <div class="box">
+
+            <img class="gambar" src="f.jpeg" alt="pantai kuta">
+
+            <h3 align="center">Pantai Kuta</h3>
+
+            <p align="center">Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br>
+
+                Quasi quibusdam blanditiis natus.<br> Est voluptatibus eum,<br>
+
+                officia expedita unde reiciendis<br> maiores, magni perspiciatis ipsum<br>
+
+                quae ipsam, illum beatae eaque omnis nostrum!</p>
+
+            <input align="center" class="tombol" type="button" value="lihat selengkapnya!">
+
+        </div>
+
+    </div>
+
+   <div class="container2">
+
+   <div>
+
+   <h4> About </h4>
+
+   </div>
+
+  
+
+     <div>
+
+       <p> Perkenalkan Nama Saya Siti Nur Hasiza.A Dari Kelas XI RPL 1 Moto Hidup Saya kita harus selalu bersabar.
+
+       </p>
+
+     </div>
+
+  <img src="c.jpeg" alt="gambar7">
+
+  </div>
+
 </html>
 ```
 
 ```css
 body {
-  margin: 0;
-  padding: 0;
-}
 
-.navbar {
-  display: flex;
-  position: fixed;
-  margin-bottom: 500px;
-  background-color: white;
-  padding-right: 100%;
-  justify-content: center;
-  box-shadow: 0px 0px 5px 0px;
-  z-index: 99;
-}
+    margin: 0;
 
-.navbar > img {
-  padding-left: 300px;
-  padding-right: -10px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  width: 110px;
-  height: 60px;
-  margin-left: 60px;
-}
+    padding: 0;
 
-.navbar > p {
-  padding: 15px;
-  cursor: pointer;
-  transition: 0.8s all;
-}
+  }
 
-.navbar p:hover {
-  transform: scale(1.3);
-}
+  .navbar {
 
-.navbar p:active {
-  transform: scale(0.8);
-}
+    display: flex;
 
-.background {
-  background-image: url(Camera/3.jpg);
-  background-size: cover;
-  width: 1150px;
-  height: 400px;
-  padding-top: 50%;
-  justify-content: center;
-  align-items: center;
-}
+    position: fixed;
 
-.button {
-  background-color: blue;
-  color: white;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  border: none;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: -20px;
-  width: 100px;
-  margin: 0 auto;
-}
+    margin-bottom: 500px;
 
-.button:hover {
-  background-image: white;
-  color: navy;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  border: none;
-}
+    background-color: white;
 
-.text {
-  color: white;
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 199px;
-}
+    padding-right: 100%;
 
-.box {
-  border: 1px black;
-  border-radius: 10px;
-  box-shadow: 2px 2px 2px 2px;
-  background-color: white;
-  width: 250px;
-  height: 450px;
-  margin-left: 45px;
-}
+    justify-content: center;
 
-.tombol {
-  background-color: blue;
-  color: white;
-  margin-left: 40px;
-  height: 40px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
+    box-shadow: 0px 0px 5px 0px;
 
-.tombol:hover {
-  background-color: navy;
-  color: white;
-}
+    z-index: 99;
 
-.gambar {
-  margin-top: 20px;
-  width: 200px;
-  height: 150px;
-  padding-left: 15px;
-  border-radius: 40px;
-}
+  }
 
-.container {
-  display: flex;
-  flex-direction: row;
-}
+  .navbar > img {
 
-.end {
-  background-color: blue;
-  color: white;
-  width: 100%;
-  height: 300px;
-  margin-top: 5px;
-  display: flex;
-}
+    padding-left: 300px;
 
-#border {
-  width: 200px;
-  height: 200px;
-  padding-top: 10px;
-  border-radius: 100px;
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 30px;
-  filter: grayscale(100);
-}
+    padding-right: -10px;
 
-#jd {
-  text-align: center;
-}
+    padding-bottom: 10px;
 
-.text {
-  margin-top: 40px;
-  margin-left: 10px;
-  display: flex;
-  flex-direction: column;
-}
+    padding-top: 10px;
 
-.container2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  background-color: steelblue;
-  width: 90%;
-  max-width: 1100px;
-  height: auto;
-  margin-top: 100px;
-}
+    width: 110px;
 
-.container2 img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  filter: grayscale(100%);
-  margin-right: 20px;
-}
+    height: 60px;
 
-.container2 h4 {
-  text-align: center;
-  color: white;
-  margin-bottom: 20px;
-}
+    margin-left: 60px;
 
-.container2 > div:nth-child(1) {
-  order: 1;
-}
+  }
 
-.container2 > div:nth-child(2) {
-  order: 2;
-}
+  .navbar > p {
 
-.container2 p {
-  text-align: center;
-  color: white;
-  margin-bottom: 20px;
-}
+    padding: 15px;
 
-@media only screen and (min-width: 600px) {
-  .container2 {
-    flex-direction: row;
-  }
+    cursor: pointer;
 
-  .container2 > div:nth-child(1) {
-    order: 1;
-  }
+    transition: 0.8s all;
 
-  .container2 > div:nth-child(2) {
-    order: 2;
-  }
-}
+  }
 
+  .navbar p:hover {
+
+    transform: scale(1.3);
+
+  }
+
+  .navbar p:active {
+
+    transform: scale(0.8);
+
+  }
+
+  .background {
+
+    background-image: url(g.jpeg);
+
+    background-size: cover;
+
+    width: 1350px;
+
+    height: 400px;
+
+    padding-top: 50%;
+
+    justify-content: center;
+
+    align-items: center;
+
+  }
+
+  .button {
+
+    background-color: blue;
+
+    color: white;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    border: none;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    padding-left: -20px;
+
+    width: 100px;
+
+    margin: 0 auto;
+
+  }
+
+  .button:hover {
+
+    background-image: white;
+
+    color: navy;
+
+    padding: 10px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    border: none;
+
+  }
+
+  .text {
+
+    color: white;
+
+    text-align: center;
+
+    padding-top: 5%;
+
+    padding-bottom: 199px;
+
+  }
+
+  .box {
+
+    border: 1px black;
+
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 2px 2px;
+
+    background-color: white;
+
+    width: 250px;
+
+    height: 450px;
+
+    margin-left: 45px;
+
+  }
+
+  .tombol {
+
+    background-color: blue;
+
+    color: white;
+
+    margin-left: 40px;
+
+    height: 40px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+  }
+
+  .tombol:hover {
+
+    background-color: navy;
+
+    color: white;
+
+  }
+
+  .gambar {
+
+    margin-top: 20px;
+
+    width: 200px;
+
+    height: 150px;
+
+    padding-left: 15px;
+
+    border-radius: 40px;
+
+  }
+
+  .container {
+
+    display: flex;
+
+    flex-direction: row;
+
+  }
+
+  .end {
+
+    background-color: blue;
+
+    color: white;
+
+    width: 100%;
+
+    height: 300px;
+
+    margin-top: 5px;
+
+    display: flex;
+
+  }
+
+  #border {
+
+    width: 200px;
+
+    height: 200px;
+
+    padding-top: 10px;
+
+    border-radius: 100px;
+
+    margin-top: 50px;
+
+    margin-left: 20px;
+
+    margin-right: 30px;
+
+    filter: grayscale(100);
+
+  }
+
+  #jd {
+
+    text-align: center;
+
+  }
+
+  .text {
+
+    margin-top: 40px;
+
+    margin-left: 10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+  .container2 {
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 20px;
+
+    background-color: steelblue;
+
+    width: 90%;
+
+    max-width: 1100px;
+
+    height: auto;
+
+    margin-top: 100px;
+
+  }
+
+  .container2 img {
+
+    width: 100px;
+
+    height: 100px;
+
+    border-radius: 50%;
+
+    filter: grayscale(100%);
+
+    margin-right: 20px;
+
+  }
+
+  .container2 h4 {
+
+    text-align: center;
+
+    color: white;
+
+    margin-bottom: 20px;
+
+  }
+
+  .container2 > div:nth-child(1) {
+
+    order: 1;
+
+  }
+
+  .container2 > div:nth-child(2) {
+
+    order: 2;
+
+  }
+
+  .container2 p {
+
+    text-align: center;
+
+    color: white;
+
+    margin-bottom: 20px;
+
+  }
+
+  @media only screen and (min-width: 600px) {
+
+    .container2 {
+
+      flex-direction: row;
+
+    }
+
+    .container2 > div:nth-child(1) {
+
+      order: 1;
+
+    }
+
+    .container2 > div:nth-child(2) {
+
+      order: 2;
+
+    }
+
+  }
 
 ```
 ### Hasil
-![gambar](TugasUlangan/asettugas/BR.jpg)
+![](asettugas/pesona1.jpg)
 
-![gambar](R.jpg)
+![](asettugas/pesona2.jpg)
+
+![](asettugas/pesona3.jpg)

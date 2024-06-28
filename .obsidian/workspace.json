@@ -13,13 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTML/ANALISIS PROYEK UJIAN.md",
+                "file": "EKSPLORASI/EKSPLORASI FILTER.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e9414489538012b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "htmll/RANGKUMAN HTML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2e3d9252d55deea2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "htmll/RANGKUMAN HTML.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54ba769c06b757d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "css-/RANGKUMAN CSS.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "061e894cbc017585",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "php-/RANGKUMAN PHP.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -85,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTML/ANALISIS PROYEK UJIAN.md",
+                "file": "php-/RANGKUMAN PHP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTML/ANALISIS PROYEK UJIAN.md",
+                "file": "php-/RANGKUMAN PHP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTML/ANALISIS PROYEK UJIAN.md"
+                "file": "php-/RANGKUMAN PHP.md"
               }
             }
           }
@@ -146,52 +195,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c19a21d9743438ae",
+  "active": "061e894cbc017585",
   "lastOpenFiles": [
-    "ALTER/ALTER.md",
-    "ALTER/ALTER.pdf",
-    "PHP/asetPHP/12.png",
-    "ALTER.md",
-    "ALTER/open.url",
-    "New folder",
-    "RESPONSIVE",
-    "ALTER/asetALTER/UPDATE.png",
-    "ALTER/asetALTER/TIPE1.png",
-    "ALTER/asetALTER/tambahan1.png",
-    "ALTER/asetALTER/RENAME1.png",
-    "ALTER/asetALTER/MENGUBAH.png",
-    "ALTER/asetALTER/MENGHAPUS1.png",
-    "ALTER/asetALTER/CONSTRAINT.png",
-    "ALTER/asetALTER/KOLOM1.png",
-    "ALTER/asetALTER/BATAS.png",
-    "ALTER/asetALTER",
-    "ALTER - Salin/ALTER.pdf",
-    "ALTER - Salin/ALTER.md",
-    "ALTER - Salin",
-    "TugasUlangan/Tugas.md",
-    "TugasUlangan/Tugas.pdf",
-    "REMED BASIS DATA/REMED BASISDATA.md",
-    "REMED BASIS DATA/REMED BASISDATA.pdf",
-    "CSS/Pengenalan CSS+BOOSTRAP+RESPONSIVE.pdf",
-    "PHP/Pengenalan PHP.md",
-    "PHP/PHP MYSQL.md",
-    "HTML/Pengenalan HTML.md",
-    "HTML/Pengenalan Web.md",
-    "HTML/ANALISIS PROYEK UJIAN.md",
+    "php-/RANGKUMAN PHP.pdf",
+    "htmll/RANGKUMAN HTML.md",
+    "htmll/RANGKUMAN HTML.pdf",
+    "basisdata/RANGKUMAN BASISDATA.md",
+    "basisdata/RANGKUMAN BASISDATA.pdf",
+    "css-/RANGKUMAN CSS.md",
+    "css-/RANGKUMAN CSS.pdf",
+    "css-",
+    "php-",
+    "htmll",
+    "php-/RANGKUMAN PHP.md",
+    "basisdata",
     "GITHUB & GIT/GITHUB & GIT.md",
-    "HTML/DESKRIPSI.md",
-    "BASIS DATA/INSTALASI & QUERY AWAL DATABASE.md",
-    "BASIS DATA/Pengenalan BasisData.md",
-    "BASIS DATA/ALTER.md",
+    "HTML/Pengenalan HTML.md",
     "BASIS DATA/SELECT LANJUTAN.md",
+    "BASIS DATA/SELECT LANJUTAN.pdf",
+    "PHP/PHP MYSQL.md",
+    "REMED BASIS DATA/REMED BASISDATA.md",
+    "PRAKTIKUM 7/Asett/hasill4.png",
+    "PRAKTIKUM 7/Asett/hasill3.png",
+    "PRAKTIKUM 7/Asett/hasill2.png",
+    "PRAKTIKUM 7/Asett/hasill1.png",
+    "PRAKTIKUM 7/Asett/hasil2.png",
+    "PRAKTIKUM 7/Asett/f.jpeg",
+    "PRAKTIKUM 7/asets/Penggabungan_order_Costumers.png",
+    "PRAKTIKUM 7/asets/Orders.png",
+    "PRAKTIKUM 7/asets/Customers.png",
+    "PRAKTIKUM 7/aset/mada9.png",
+    "PRAKTIKUM 7/PRAKTIKUM 7.md",
+    "PRAKTIKUM 7/Asett",
+    "PRAKTIKUM 7/asets",
+    "PHP/asetPHP/PRAKTIKUM 7/Praktikum PHP.md",
+    "PHP/Pengenalan PHP.md",
+    "TugasUlangan/Tugas.md",
+    "BASIS DATA/Pengenalan BasisData.md",
+    "BASIS DATA/INSTALASI & QUERY AWAL DATABASE.md",
+    "EKSPLORASI/EKSPLORASI FILTER.md",
+    "ALTER/ALTER.md",
     "CSS/Pengenalan CSS+BOOSTRAP+RESPONSIVE.md",
-    "CSS/CSS Responsive.md",
-    "CSS/Boostrap.md",
+    "HTML/ANALISIS PROYEK UJIAN.md",
+    "HTML/DESKRIPSI.md",
     "HTML/PERTEMUAN 1.md",
-    "PRAKTIKUM 7/Praktikum PHP.md",
-    "FILTER.md",
-    "REMED CSS.md",
-    "PBO.md",
-    "EKSPLORASI/EKSPLORASI FILTER.md"
+    "HTML/Pengenalan Web.md",
+    "CSS/CSS Responsive.md",
+    "ALTER.md",
+    "ALTER - Salin/ALTER.md"
   ]
 }

@@ -136,9 +136,7 @@ Kesimpulan dari  "SELECT * FROM mobil WHERE harga_rental <> 300000000000;" adala
 
 ## Hasil
 
-![[b11.png]]
-
-![[aset30.png]]
+![](asetBASISDATA/aset7.jpg)
 
 ## Analisis
 1. **SELECT nama**:
@@ -738,7 +736,8 @@ CREATE VIEW
 ```
 
 ### Hasil
-![](asetBASISDATA/ss40.png)
+
+![](asetBASISDATA/h2.jpg)
 ### Kesimpulan
 CREATE VIEW mobil_tanpa_peminjam AS Select no_plat, peminjaman FROM mobil WHERE peminjaman IS NULL; digunakan untuk membuat sebuah view baru bernama mobil_Tanpa_peminjam. Viewnya berisi dua kolom, yaitu no_plat dan peminjaman, yang diambil dari tabel mobil hanya baris-baris yang memiliki nilai NULL pada kolom peminjam yang dimasukkan ke dalam view. 
 
@@ -756,11 +755,11 @@ UPDATE mobil: adalah perintah untuk memperbarui data dalam tabel yang disebut mo
 ```mysql
 UPDATE mobil
     -> SET peminjaman = NULL
-    -> WHERE peminjaman = 'afdal';
+    -> WHERE peminjaman = 'FATIH';
 ```
 ### Hasil
 
-![](asetBASISDATA/ss41.png)
+![](asetBASISDATA/h1.jpg)
 ### Kesimpulan
 UPDATE mobil SET peminjaman = NULL WHERE peminjaman = 'afdal'; nilai pada kolom peminjaman pada tabel `mobil`yang memiliki nilai 'afdal' akan diubah menjadi NULL.
 Kesimpulannya, perintah digunakan untuk menghapus atau mengubah nilai peminjaman menjadi NULL untuk semua data di tabel mobil yang berada di kolom `peminjaman`memiliki nilai 'afdal'.
